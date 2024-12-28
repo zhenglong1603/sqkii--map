@@ -1,61 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Singapore Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
-        /* Set the size of the map */
-        #map {
-            height: 100vh;
-            width: 100%;
-        }
+      /* Set the size of the map */
+      #map {
+        height: 90vh; /* Reduced height to accommodate the filter */
+        width: 100%;
+      }
+      #filter {
+        margin: 10px;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
+    <div id="filter">
+      <label for="coinFilter">Filter by Coin Type:</label>
+      <select id="coinFilter">
+        <option value="all">All</option>
+        <option value="sgph">Evergreen</option>
+        <option value="sqkii">Sqkii</option>
+        <option value="etiqa">Etiqa</option>
+        <option value="tiger">Tiger</option>
+        <option value="burger_king">Burger King</option>
+        <option value="myvillage">MyVillage</option>
+        <option value="nestle_professional">Milo</option>
+        <option value="singapore_police_force">ACT</option>
+        <option value="lendlease">LendLease</option>
+      </select>
+    </div>
     <div id="map"></div>
 
+    <!-- Move Leaflet script to the bottom for better performance -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        // Initialize the map
-        var map = L.map('map').setView([1.3521, 103.8198], 13); // Coordinates of Singapore
+      function createCustomIcon(color) {
+        return L.divIcon({
+          className: "custom-marker",
+          iconSize: [30, 50],
+          iconAnchor: [15, 50],
+          popupAnchor: [0, -45],
+          html: `
+            <div style="
+              position: relative;
+              width: 30px;
+              height: 50px;">
+              <div style="
+                background-color: ${color};
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                border: 2px solid #000;
+                box-shadow: 0px 2px 5px rgba(0,0,0,0.3);">
+              </div>
+              <div style="
+                position: absolute;
+                top: 30px;
+                left: 10px;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 20px solid ${color};">
+              </div>
+            </div>
+          `,
+        });
+      }
 
-        // Add OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+      // Initialize the map
+      var map = L.map("map").setView([1.3521, 103.8198], 13); // Coordinates of Singapore
 
-        // Fetch the JSON data
-        fetch('winners.json') // Replace with the actual path to your JSON file
-            .then(response => response.json())
-            .then(data => {
-                if (data && data.data) {
-                    // Extract only coin_number and location
-                    const winnersData = data.data.map(winner => ({
-                        coin_number: winner.coin_number,
-                        location: winner.location
-                    }));
+      // Add OpenStreetMap tiles
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
 
-                    // Add a marker for each winner's location
-                    winnersData.forEach(winner => {
-                        const { coin_number, location } = winner;
+      let allMarkers = []; // Store all markers
 
-                        // Add a marker for each winner's location
-                        const marker = L.marker([location.lat, location.lng]).addTo(map);
+      // Fetch the JSON data
+      fetch("winners.json") // Replace with the actual path to your JSON file
+        .then((response) => response.json())
+        .then((data) => {
+          if (data && data.data) {
+            const winnersData = data.data.map((winner) => ({
+              coin_id: winner.coin_id,
+              coin_number: winner.coin_number,
+              location: winner.location,
+              winner_info: winner.winner_info,
+            }));
 
-                        // Add a popup to display the coin number
-                        marker.bindPopup(`<b>Coin Number: ${coin_number}</b>`);
-                    });
-                } else {
-                    console.error('No winners data available or data is not in the expected format');
-                }
-            })
-            .catch(error => {
-                console.error('Error fetching data:', error);
+            // Add markers and store them
+            winnersData.forEach((winner) => {
+              const { coin_id, coin_number, location, winner_info } = winner;
+
+              // Extract winner's name
+              const firstName = winner_info?.first_name || "Unknown";
+              const lastName = winner_info?.last_name || "Unknown";
+              const fullName = `${firstName} ${lastName}`;
+
+              // Filter and display custom messages based on coin_id
+              let popupMessage = "";
+              let markerColor = "#d41dcb"; // Default pink color
+              if (coin_id.toLowerCase().includes("sgph")) {
+                popupMessage = `Evergreen Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#1dd428"; // Green
+              } else if (coin_id.toLowerCase().includes("sqkii")) {
+                popupMessage = `Sqkii Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#1dbed4"; // Blue
+              } else if (coin_id.toLowerCase().includes("etiqa")) {
+                popupMessage = `Etiqa Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#6f7089"; // Red
+              } else if (coin_id.toLowerCase().includes("tiger")) {
+                popupMessage = `Tiger Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#f8fd12"; // Yellow
+              } else if (coin_id.toLowerCase().includes("burger_king")) {
+                popupMessage = `BK Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#FF5733"; // Orange
+              } else if (coin_id.toLowerCase().includes("myvillage")) {
+                popupMessage = `MV Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#8e44ad"; // Purple
+              } else if (
+                coin_id.toLowerCase().includes("nestle_professional")
+              ) {
+                popupMessage = `Milo Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#080808"; // Bright Green
+              } else if (
+                coin_id.toLowerCase().includes("singapore_police_force")
+              ) {
+                popupMessage = `ACT Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#000cff"; // Teal
+              } else if (coin_id.toLowerCase().includes("lendlease")) {
+                popupMessage = `LendLease Number: ${coin_number}<br>Winner: ${fullName}`;
+                markerColor = "#080808"; // Black
+              } else {
+                popupMessage = `Unknown Number: ${coin_number}<br>Winner: ${fullName}`;
+              }
+
+              // Create marker
+              const customIcon = createCustomIcon(markerColor);
+              const marker = L.marker([location.lat, location.lng], {
+                icon: customIcon,
+              }).bindPopup(`<b>${popupMessage}</b>`);
+
+              // Add to map and store
+              marker.addTo(map);
+              allMarkers.push({ coin_id, marker });
             });
-    </script>
 
-</body>
+            // Setup filter functionality
+            setupFilter();
+          } else {
+            console.error(
+              "No winners data available or data is not in the expected format"
+            );
+          }
+        })
+        .catch((error) => {
+          console.error("Error fetching data:", error);
+        });
+
+      // Filter markers based on coin_id
+      function setupFilter() {
+        const filterSelect = document.getElementById("coinFilter");
+        filterSelect.addEventListener("change", () => {
+          const selectedCoinId = filterSelect.value;
+
+          // Remove all markers
+          allMarkers.forEach(({ marker }) => map.removeLayer(marker));
+
+          // Add filtered markers or all if "all" is selected
+          allMarkers.forEach(({ coin_id, marker }) => {
+            if (
+              selectedCoinId === "all" ||
+              coin_id.toLowerCase().includes(selectedCoinId.toLowerCase())
+            ) {
+              marker.addTo(map);
+            }
+          });
+        });
+      }
+    </script>
+  </body>
 </html>
