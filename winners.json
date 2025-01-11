@@ -9251,6 +9251,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "676edbf020f4abeb03e06d21",
+            "coin_id": "gold",
+            "status": "found",
+            "found_at": "2025-01-06T03:51:56.653Z",
+            "videos": [
+                "https://www.youtube.com/shorts/kmhhkiBTFzg"
+            ],
+            "coin_number": 1,
+            "reward": "S$500,000 Cash!",
+            "winner_info": {
+                "first_name": "",
+                "last_name": "Wee Kiat"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2989533,
+                    "lng": 103.8440716
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.325748,
+                "lng": 103.931308
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",

@@ -22,6 +22,7 @@
       <label for="coinFilter">Filter by Coin Type:</label>
       <select id="coinFilter">
         <option value="all">All</option>
+        <option value="gold">Gold Coin</option>
         <option value="sgph|htm_tool">Evergreen</option>
         <option value="sqkii ">Sqkii</option>
         <option value="etiqa">Etiqa</option>
@@ -136,7 +137,7 @@
                   markerColor = "#6f7089"; // Red
                 } else if (coin_id.toLowerCase().includes("tiger")) {
                   popupMessage = `Tiger Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#f8fd12"; // Yellow
+                  markerColor = "#fd8a8a"; // Yellow
                 } else if (coin_id.toLowerCase().includes("burger_king")) {
                   popupMessage = `BK Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#FF5733"; // Orange
@@ -158,6 +159,9 @@
                   popupMessage = `LendLease Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#080808"; // Black
                   dollarColor = "#fff"; // White
+                } else if (coin_id.toLowerCase().includes("gold")) {
+                  popupMessage = `Gold Coin!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                  markerColor = "#f4d451"; // Gold
                 } else {
                   popupMessage = `Unknown Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                 }
