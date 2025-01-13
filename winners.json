@@ -9280,6 +9280,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6777fffacb5309bcddbbce9d",
+            "coin_id": "htm_tool_sg_sqkii_19",
+            "status": "found",
+            "found_at": "2025-01-13T12:15:00.490Z",
+            "videos": [
+                "https://youtube.com/shorts/m-m83I2ptwQ"
+            ],
+            "coin_number": 19,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Herman",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.324437,
+                    "lng": 103.9036207
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.324437,
+                "lng": 103.9036207
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "677801f273a7fc3c43684a63",
+            "coin_id": "htm_tool_sg_sqkii_20",
+            "status": "found",
+            "found_at": "2025-01-13T14:05:57.691Z",
+            "videos": [
+                "https://youtube.com/shorts/Vo4sBEBDI60?feature=share"
+            ],
+            "coin_number": 20,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Hanafi",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3483085,
+                    "lng": 103.7457082
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3483085,
+                "lng": 103.7457082
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
