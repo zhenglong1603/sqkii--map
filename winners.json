@@ -8045,8 +8045,8 @@
             "coin_number": 215,
             "reward": "S$500 Cash!",
             "winner_info": {
-                "first_name": "Zheng",
-                "last_name": "Yong Sue"
+                "first_name": "Sue",
+                "last_name": "Zheng Yong"
             },
             "lastCircle": {
                 "center": {
@@ -9334,6 +9334,64 @@
             "location": {
                 "lat": 1.3483085,
                 "lng": 103.7457082
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "67813f3ca6fa8e0789b051ae",
+            "coin_id": "htm_tool_sg_sqkii_22",
+            "status": "found",
+            "found_at": "2025-01-25T06:03:20.505Z",
+            "videos": [
+                "https://youtube.com/shorts/FnxGP25vlqA"
+            ],
+            "coin_number": 22,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Sue",
+                "last_name": "Zheng Long"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2823382,
+                    "lng": 103.8495507
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2823382,
+                "lng": 103.8495507
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "678b3f0f1646bfc2b4fa2407",
+            "coin_id": "htm_tool_sg_sqkii_23",
+            "status": "found",
+            "found_at": "2025-02-16T11:13:44.633Z",
+            "videos": [
+                "https://youtube.com/shorts/Nkf6unObuDY"
+            ],
+            "coin_number": 23,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Hafizan",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3898986939785516,
+                    "lng": 103.76759065992223
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3898986939785516,
+                "lng": 103.76759065992223
             },
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
