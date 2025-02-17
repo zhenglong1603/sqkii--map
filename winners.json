@@ -9396,6 +9396,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "678b41041646bfc2b4fa2f03",
+            "coin_id": "htm_tool_sg_sqkii_24",
+            "status": "found",
+            "found_at": "2025-02-17T09:47:06.748Z",
+            "videos": [
+                "https://www.youtube.com/shorts/ZO9CzA-GS2Y"
+            ],
+            "coin_number": 24,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Natasha",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3465448,
+                    "lng": 103.6855326
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3465448,
+                "lng": 103.6855326
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
