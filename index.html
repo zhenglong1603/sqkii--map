@@ -162,6 +162,9 @@
                 } else if (coin_id.toLowerCase().includes("gold")) {
                   popupMessage = `Gold Coin!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#f4d451"; // Gold
+                } else if (coin_id.toLowerCase().includes("sentosa")) {
+                  popupMessage = `Sentosa!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                  markerColor = "#FFFFFF"; // Gold
                 } else {
                   popupMessage = `Unknown Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                 }

@@ -9425,6 +9425,383 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "67a5ad4f0c52380f43c03eea",
+            "coin_id": "htm_tool_sg_sqkii_25",
+            "status": "found",
+            "found_at": "2025-03-10T04:20:46.664Z",
+            "videos": [
+                "https://youtube.com/shorts/egrFg2b3t48?feature=share"
+            ],
+            "coin_number": 25,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Sue",
+                "last_name": "Zheng Long"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4515447,
+                    "lng": 103.8312114
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4515447,
+                "lng": 103.8312114
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "67c8152113317498aa4741b7",
+            "coin_id": "htm_tool_sg_sentosa_1",
+            "status": "found",
+            "found_at": "2025-03-06T10:06:24.587Z",
+            "videos": [
+                "https://youtube.com/shorts/lsShfIhrJd0?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Shafiq",
+                "last_name": "Apandi"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2508105,
+                    "lng": 103.8180666
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2508105,
+                "lng": 103.8180666
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67c814d3fca8a9783cd779b6",
+            "coin_id": "htm_tool_sg_sentosa_2",
+            "status": "found",
+            "found_at": "2025-03-06T11:55:23.855Z",
+            "videos": [
+                "https://youtube.com/shorts/eCZfeR3o3EE?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Hanafi",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2590124,
+                    "lng": 103.8091661
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2590124,
+                "lng": 103.8091661
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67c8195413317498aa475645",
+            "coin_id": "htm_tool_sg_sentosa_5",
+            "status": "found",
+            "found_at": "2025-03-08T09:00:56.150Z",
+            "videos": [
+                "https://youtube.com/shorts/ziOdl1MR9No?feature=share"
+            ],
+            "coin_number": 5,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Hadzwan",
+                "last_name": "Lee"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2448195,
+                    "lng": 103.8267157
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2448195,
+                "lng": 103.8267157
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67c81b2e4a7cae0f9eb98ae9",
+            "coin_id": "htm_tool_sg_sentosa_3",
+            "status": "found",
+            "found_at": "2025-03-07T08:38:46.104Z",
+            "videos": [
+                "https://youtube.com/shorts/uz7rOb_88ug?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Hadzwan",
+                "last_name": "Lee"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2523189,
+                    "lng": 103.8234169
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2523189,
+                "lng": 103.8234169
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67c8291e13317498aa47ad8a",
+            "coin_id": "htm_tool_sg_sentosa_4",
+            "status": "found",
+            "found_at": "2025-03-07T04:36:38.653Z",
+            "videos": [
+                "https://youtube.com/shorts/1J8vHhkL6B0?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Ng",
+                "last_name": "Hui Xin"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2539744,
+                    "lng": 103.8183489
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2539744,
+                "lng": 103.8183489
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67ca66b1c482061d73582acf",
+            "coin_id": "htm_tool_sg_sentosa_6",
+            "status": "found",
+            "found_at": "2025-03-07T08:47:37.811Z",
+            "videos": [
+                "https://youtube.com/shorts/BQaBxubH9uc?feature=share"
+            ],
+            "coin_number": 6,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Melissa",
+                "last_name": "Lim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2533748,
+                    "lng": 103.8152248
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2533748,
+                "lng": 103.8152248
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67ca704d0a3ad268a305d05c",
+            "coin_id": "htm_tool_sg_sentosa_7",
+            "status": "found",
+            "found_at": "2025-03-09T05:30:35.500Z",
+            "videos": [
+                "https://youtube.com/shorts/OwtaoWNUF8w"
+            ],
+            "coin_number": 7,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Ain",
+                "last_name": "M Nor"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2584925,
+                    "lng": 103.8126046
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2584925,
+                "lng": 103.8126046
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67ca7ede0a3ad268a3077312",
+            "coin_id": "htm_tool_sg_sentosa_8",
+            "status": "found",
+            "found_at": "2025-03-09T05:47:30.921Z",
+            "videos": [
+                "https://youtube.com/shorts/9fT-KMMDhEs"
+            ],
+            "coin_number": 8,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Natasha",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2552173,
+                    "lng": 103.8149861
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2552173,
+                "lng": 103.8149861
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67cba5ce76844a858958edd0",
+            "coin_id": "htm_tool_sg_sentosa_10",
+            "status": "found",
+            "found_at": "2025-03-09T05:42:02.259Z",
+            "videos": [
+                "https://youtube.com/shorts/tkwXg__YzHY?feature=share"
+            ],
+            "coin_number": 10,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Jotham",
+                "last_name": "You Zhi Tay"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2480589,
+                    "lng": 103.8233107
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2480589,
+                "lng": 103.8233107
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67cbc2a0e8afd64b58cdef61",
+            "coin_id": "htm_tool_sg_sentosa_11",
+            "status": "found",
+            "found_at": "2025-03-09T13:53:38.721Z",
+            "videos": [
+                "https://www.youtube.com/shorts/yi0nzPAGFhI"
+            ],
+            "coin_number": 11,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Aqil",
+                "last_name": "Zhahireen Roz Azman"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2524499,
+                    "lng": 103.8191464
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2524499,
+                "lng": 103.8191464
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67cbd07d827c80416eabb7df",
+            "coin_id": "htm_tool_sg_sentosa_12",
+            "status": "found",
+            "found_at": "2025-03-09T14:20:40.953Z",
+            "videos": [
+                "https://youtube.com/shorts/K326WMt9YbQ?feature=share"
+            ],
+            "coin_number": 12,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Herman",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2552713,
+                    "lng": 103.816928
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2552713,
+                "lng": 103.816928
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67cce0d396a02f7b1f02d7d7",
+            "coin_id": "htm_tool_sg_sentosa_13",
+            "status": "found",
+            "found_at": "2025-03-09T13:50:23.683Z",
+            "videos": [
+                "https://youtube.com/shorts/VeCF8JYWmT8?feature=share"
+            ],
+            "coin_number": 13,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Denny",
+                "last_name": "Wahyudi Bin Sutoro Wahyudi"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.257138,
+                    "lng": 103.8113088
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.257138,
+                "lng": 103.8113088
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
         }
     ],
     "error_message": "",
