@@ -123,7 +123,10 @@
 
                 const videoLink = video && video.length > 0 ? video[0] : null;
 
-                if (
+                if (coin_id.toLowerCase().includes("sentosa")) {
+                  popupMessage = `Sentosa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                  markerColor = "#ADB2D4"; // Light Blue
+                } else if (
                   coin_id.toLowerCase().includes("sgph") ||
                   coin_id.toLowerCase().includes("htm_tool")
                 ) {
@@ -162,9 +165,6 @@
                 } else if (coin_id.toLowerCase().includes("gold")) {
                   popupMessage = `Gold Coin!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#f4d451"; // Gold
-                } else if (coin_id.toLowerCase().includes("sentosa")) {
-                  popupMessage = `Sentosa!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#FFFFFF"; // Gold
                 } else {
                   popupMessage = `Unknown Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                 }
