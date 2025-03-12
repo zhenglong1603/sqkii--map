@@ -9947,6 +9947,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sentosa",
             "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67c584b1fca8a9783ccd9d0e",
+            "coin_id": "Discovery Crystal Coin #1",
+            "status": "found",
+            "found_at": "2025-03-08T02:28:00.000Z",
+            "videos": [
+                "https://youtube.com/shorts/dDM1smaYhFw?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$10,000 Cash!",
+            "winner_info": {
+                "first_name": "Desmond",
+                "last_name": "Wee"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2440332,
+                    "lng": 103.8275636
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2528790,
+                "lng": 103.8214157
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
         }
     ],
     "error_message": "",
