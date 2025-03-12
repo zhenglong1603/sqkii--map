@@ -23,7 +23,8 @@
       <select id="coinFilter">
         <option value="all">All</option>
         <option value="gold">Gold Coin</option>
-        <option value="sgph|htm_tool">Evergreen</option>
+        <option value="evergreen">Evergreen</option>
+        <option value="sentosa">Sentosa</option>
         <option value="sqkii ">Sqkii</option>
         <option value="etiqa">Etiqa</option>
         <option value="tiger">Tiger</option>
@@ -127,8 +128,7 @@
                   popupMessage = `Sentosa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#ADB2D4"; // Light Blue
                 } else if (
-                  coin_id.toLowerCase().includes("sgph") ||
-                  coin_id.toLowerCase().includes("htm_tool")
+                  coin_id.toLowerCase().includes("evergreen")
                 ) {
                   popupMessage = `Evergreen Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#1dd428"; // Green
