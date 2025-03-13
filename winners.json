@@ -9976,6 +9976,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sentosa",
             "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67cfe65d9405ef002927c3a7",
+            "coin_id": "htm_tool_sg_sentosa_18",
+            "status": "found",
+            "found_at": "2025-03-13T02:42:13.524Z",
+            "videos": [
+                "https://youtube.com/shorts/cBikZXbJ6_s?feature=share"
+            ],
+            "coin_number": 18,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Loh",
+                "last_name": "Huey Fang"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2429669,
+                    "lng": 103.8286362
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2429669,
+                "lng": 103.8286362
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67d13e05d87a5776ad6a0618",
+            "coin_id": "htm_tool_sg_sentosa_19",
+            "status": "found",
+            "found_at": "2025-03-13T02:43:39.769Z",
+            "videos": [
+                "https://youtube.com/shorts/lFWMSaxPNd4?feature=share"
+            ],
+            "coin_number": 19,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Leonard",
+                "last_name": "Leong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2572258,
+                    "lng": 103.811684
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2572258,
+                "lng": 103.811684
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
         }
     ],
     "error_message": "",
