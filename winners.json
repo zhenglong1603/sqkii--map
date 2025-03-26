@@ -11194,6 +11194,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sentosa",
             "brand_name": "Sentosa Silver"
+        },
+        {
+            "_id": "67df9ec177e5cce56a1e63ea",
+            "coin_id": "htm_tool_sg_sentosa_57",
+            "status": "found",
+            "found_at": "2025-03-26T07:41:01.149Z",
+            "videos": [
+                "https://youtube.com/shorts/54VFqpCZLJ8?feature=share"
+            ],
+            "coin_number": 57,
+            "reward": "S$1,000 Cash!",
+            "winner_info": {
+                "first_name": "Roy",
+                "last_name": "Nayan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2545723821212709,
+                    "lng": 103.81897936467008
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2545723821212709,
+                "lng": 103.81897936467008
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sentosa",
+            "brand_name": "Sentosa Silver"
         }
     ],
     "error_message": "",
