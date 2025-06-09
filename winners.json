@@ -11948,6 +11948,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+         {
+            "_id": "68274873a46626238090593a",
+            "coin_id": "evergreen_38",
+            "status": "found",
+            "found_at": "2025-06-09T05:45:52.760Z",
+            "videos": [
+                "https://youtube.com/shorts/3gQJUDKMrFU?feature=share"
+            ],
+            "coin_number": 38,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Erwin",
+                "last_name": "Teo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3513362,
+                    "lng": 103.8678524
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3513362,
+                "lng": 103.8678524
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
