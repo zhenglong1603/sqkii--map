@@ -11977,7 +11977,66 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "684250deb95bc280150773ec",
+            "coin_id": "evergreen_49",
+            "status": "found",
+            "found_at": "2025-06-13T05:41:28.582Z",
+            "videos": [
+                "https://youtube.com/shorts/xOVDk5M6JWk?feature=share"
+            ],
+            "coin_number": 49,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Hamidah",
+                "last_name": "Hashim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3236905297474686,
+                    "lng": 103.65272180870244
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3236905297474686,
+                "lng": 103.65272180870244
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "683d1c3ec07f5a26688c84eb",
+            "coin_id": "_41",
+            "status": "found",
+            "found_at": "2025-06-13T09:05:09.626Z",
+            "videos": [
+                "https://youtube.com/shorts/SfK51g-6IWI"
+            ],
+            "coin_number": 41,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Jun",
+                "last_name": "Han Lim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.316957320493396,
+                    "lng": 103.87640415976267
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.316957320493396,
+                "lng": 103.87640415976267
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
+
     ],
     "error_message": "",
     "error_code": ""
