@@ -12035,6 +12035,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "684067c58fcaca0aa4fe2431",
+            "coin_id": "evergreen_48",
+            "status": "found",
+            "found_at": "2025-06-16T03:48:13.377Z",
+            "videos": [
+                "https://youtube.com/shorts/cmH9PkGoh40?feature=share"
+            ],
+            "coin_number": 48,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Xinying",
+                "last_name": "Xu"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4315590875003525,
+                    "lng": 103.77757507510216
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4315590875003525,
+                "lng": 103.77757507510216
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "683d1c47fad6b33f88396a42",
+            "coin_id": "evergreen_42",
+            "status": "found",
+            "found_at": "2025-06-16T03:50:03.058Z",
+            "videos": [
+                "https://youtube.com/shorts/5QL5ck7WdLw?feature=share"
+            ],
+            "coin_number": 42,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Zaynaab",
+                "last_name": ""
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3350415680555614,
+                    "lng": 103.9580747495427
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3350415680555614,
+                "lng": 103.9580747495427
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
 
     ],
