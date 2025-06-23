@@ -12441,6 +12441,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "capitaland_science_park",
             "brand_name": "Science Park"
+        },
+        {
+            "_id": "6857c430346052ae65d23467",
+            "coin_id": "htm_tool_sg_capitaland_science_park_15",
+            "status": "found",
+            "found_at": "2025-06-23T08:36:27.681Z",
+            "videos": [
+                "https://youtube.com/shorts/y5cDWglwdFc"
+            ],
+            "coin_number": 15,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Aini",
+                "last_name": "Hashim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2939073,
+                    "lng": 103.7848555
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2939073,
+                "lng": 103.7848555
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
         }
 
     ],
