@@ -13079,6 +13079,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "capitaland_science_park",
             "brand_name": "Science Park"
+        },
+        {
+            "_id": "686788b45c1820429de27c8e",
+            "coin_id": "htm_tool_sg_capitaland_science_park_38",
+            "status": "found",
+            "found_at": "2025-07-05T04:43:14.961Z",
+            "videos": [
+                "https://youtube.com/shorts/l7lcTFXG49Y?feature=share"
+            ],
+            "coin_number": 38,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Yong",
+                "last_name": "Ling"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2917933,
+                    "lng": 103.7842667
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2917933,
+                "lng": 103.7842667
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
+        },
+        {
+            "_id": "68689d807f1754ab5b3fa4be",
+            "coin_id": "htm_tool_sg_capitaland_science_park_41",
+            "status": "found",
+            "found_at": "2025-07-05T11:35:01.709Z",
+            "videos": [
+                "https://youtube.com/shorts/HsIAb5NqckM?feature=share"
+            ],
+            "coin_number": 41,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Dominic",
+                "last_name": "Lowry"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2885845,
+                    "lng": 103.7914289
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2885845,
+                "lng": 103.7914289
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
         }
     ],
     "error_message": "",
