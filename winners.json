@@ -13110,6 +13110,64 @@
             "brand_name": "Science Park"
         },
         {
+            "_id": "686891f29979a73200b7a8e2",
+            "coin_id": "htm_tool_sg_capitaland_science_park_39",
+            "status": "found",
+            "found_at": "2025-07-06T04:13:17.604Z",
+            "videos": [
+                "https://youtube.com/shorts/ZHiO6r1x7To?feature=share"
+            ],
+            "coin_number": 39,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Sue",
+                "last_name": "Zheng Long"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2911419,
+                    "lng": 103.7839888
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2911419,
+                "lng": 103.7839888
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
+        },
+        {
+            "_id": "686897b6efc2178522f7004c",
+            "coin_id": "htm_tool_sg_capitaland_science_park_40",
+            "status": "found",
+            "found_at": "2025-07-06T04:17:02.601Z",
+            "videos": [
+                "https://youtube.com/shorts/tF2mntOHKR4?feature=share"
+            ],
+            "coin_number": 40,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Jerrell",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2889135,
+                    "lng": 103.7878804
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2889135,
+                "lng": 103.7878804
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
+        },
+        {
             "_id": "68689d807f1754ab5b3fa4be",
             "coin_id": "htm_tool_sg_capitaland_science_park_41",
             "status": "found",
@@ -13133,6 +13191,64 @@
             "location": {
                 "lat": 1.2885845,
                 "lng": 103.7914289
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
+        },
+        {
+            "_id": "6868ce322ce0fd3966db881f",
+            "coin_id": "htm_tool_sg_capitaland_science_park_42",
+            "status": "found",
+            "found_at": "2025-07-06T05:35:39.059Z",
+            "videos": [
+                "https://youtube.com/shorts/5jOs3oqDkeg?feature=share"
+            ],
+            "coin_number": 42,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Melissa",
+                "last_name": "Lim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2939520169603347,
+                    "lng": 103.78460617915488
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2939520169603347,
+                "lng": 103.78460617915488
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "capitaland_science_park",
+            "brand_name": "Science Park"
+        },
+        {
+            "_id": "6869fa1a9979a73200bd0164",
+            "coin_id": "htm_tool_sg_capitaland_science_park_44",
+            "status": "found",
+            "found_at": "2025-07-06T06:19:27.042Z",
+            "videos": [
+                "https://youtube.com/shorts/On_w9pTU2Kc?feature=share"
+            ],
+            "coin_number": 44,
+            "reward": "500,000 STAR$®!",
+            "winner_info": {
+                "first_name": "Melvin",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2890332994755482,
+                    "lng": 103.79122207339299
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2890332994755482,
+                "lng": 103.79122207339299
             },
             "canUsePowerUp": false,
             "brand_unique_id": "capitaland_science_park",
