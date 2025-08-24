@@ -22,6 +22,7 @@
       <label for="coinFilter">Filter by Coin Type:</label>
       <select id="coinFilter">
         <option value="all">All</option>
+        <option value="dbs">DBS</option>
         <option value="Discovery">Sentosa Discovery</option>
         <option value="gold">HTM 2024 Gold</option>
         <option value="evergreen">Evergreen</option>
@@ -93,6 +94,7 @@
               winner_info: winner.winner_info,
               reward: winner.reward,
               video: winner.videos,
+              brand_name:winner.brand_name
             }));
 
             // Add markers and store them
@@ -104,6 +106,7 @@
                 winner_info,
                 reward,
                 video,
+                brand_name
               } = winner;
 
               // Extract winner's name
@@ -118,7 +121,8 @@
                 coin_number,
                 fullName,
                 reward,
-                video
+                video,
+                brand_name
               ) {
                 let popupMessage = "";
                 let markerColor = "#d41dcb"; // Default pink color
@@ -129,6 +133,9 @@
                 if (coin_id.toLowerCase().includes("sentosa")) {
                   popupMessage = `Sentosa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#ADB2D4"; // Light Blue
+                } else if (coin_id.toLowerCase().includes("dbs")) {
+                  popupMessage = `DBS ${brand_name}: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                  markerColor = "#FF0000"; // Bright Red
                 } else if (coin_id.toLowerCase().includes("discovery")) {
                   popupMessage = `Discovery Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#ADD8E6"; // Light Blue
@@ -149,7 +156,7 @@
                   markerColor = "#fd8a8a"; // Yellow
                 } else if (coin_id.toLowerCase().includes("burger_king")) {
                   popupMessage = `BK Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#FF5733"; // Orange
+                  markerColor = "#ed7902"; // Orange
                 } else if (coin_id.toLowerCase().includes("myvillage")) {
                   popupMessage = `MV Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                   markerColor = "#8e44ad"; // Purple
@@ -190,7 +197,8 @@
                   coin_number,
                   fullName,
                   reward,
-                  video
+                  video,
+                  brand_name
                 );
 
               // Create marker

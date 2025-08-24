@@ -13833,6 +13833,1080 @@
             "canUsePowerUp": false,
             "brand_unique_id": "capitaland_science_park",
             "brand_name": "Science Park"
+        },
+        {
+            "_id": "689ca8552617988e2c849f74",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_pmsnv",
+            "status": "found",
+            "found_at": "2025-08-15T08:55:15.193Z",
+            "videos": [
+                "https://youtube.com/shorts/v50cUDbTXdY?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Natasha",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3406802580850439,
+                    "lng": 103.70755332801559
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3406802580850439,
+                "lng": 103.70755332801559
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "68a89ba2e1e2698ce49eb490",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_5_wcbWv",
+            "status": "found",
+            "found_at": "2025-08-24T14:18:07.998Z",
+            "videos": [
+                "https://youtube.com/shorts/p0L9g9abu5Q"
+            ],
+            "coin_number": 5,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Muhammad",
+                "last_name": "Azlan Ahmad"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3369627758868887,
+                    "lng": 103.70379461364337
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3369627758868887,
+                "lng": 103.70379461364337
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "689ca8872617988e2c849ffe",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_h1exB",
+            "status": "found",
+            "found_at": "2025-08-15T08:03:42.259Z",
+            "videos": [
+                "https://youtube.com/shorts/MK67Grc4wzs?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jun",
+                "last_name": "Han Lim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3213051374366245,
+                    "lng": 103.93375104055053
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3213051374366245,
+                "lng": 103.93375104055053
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bedok Heartland"
+        },
+        {
+            "_id": "68a743abbba2f769a501ddda",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_ckTQV",
+            "status": "found",
+            "found_at": "2025-08-24T03:36:11.652Z",
+            "videos": [
+                "https://youtube.com/shorts/Z8QkIW9bBKA?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Lee",
+                "last_name": "Jia Sheng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3481958003140164,
+                    "lng": 103.87403207902048
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3481958003140164,
+                "lng": 103.87403207902048
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Serangoon Heartland"
+        },
+        {
+            "_id": "68a89402cd8d7960940c1c1e",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_tfPXa",
+            "status": "found",
+            "found_at": "2025-08-24T13:35:04.809Z",
+            "videos": [
+                "https://youtube.com/shorts/XElZ6ZJ4lKc"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Clarissa",
+                "last_name": "Tan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3449547,
+                    "lng": 103.8538007
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3449547,
+                "lng": 103.8538007
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bishan Heartland"
+        },
+        {
+            "_id": "68a8949f8c78801f67935eb8",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_3_SSTCh",
+            "status": "found",
+            "found_at": "2025-08-24T14:43:40.872Z",
+            "videos": [
+                "https://youtube.com/shorts/9GG-MQOIUD4"
+            ],
+            "coin_number": 3,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Ian",
+                "last_name": "Lowe"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3214820874438686,
+                    "lng": 103.88738983617577
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3214820874438686,
+                "lng": 103.88738983617577
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Geylang Heartland"
+        },
+        {
+            "_id": "68a09c41b71c345abf46662c",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_P5J09",
+            "status": "found",
+            "found_at": "2025-08-22T11:48:44.787Z",
+            "videos": [
+                "https://youtube.com/shorts/FWJ3nGPD7Rk?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Xinying",
+                "last_name": "Xu"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3963375,
+                    "lng": 103.9085935
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3963375,
+                "lng": 103.9085935
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Punggol Heartland"
+        },
+        {
+            "_id": "68a5e22eab9725b9a29ac267",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_3_pMDaj",
+            "status": "found",
+            "found_at": "2025-08-24T13:55:21.062Z",
+            "videos": [
+                "https://youtube.com/shorts/8JzQobXeP8Y?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Wei",
+                "last_name": "Xuan Chua"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.397656093889566,
+                    "lng": 103.87718652215904
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.397656093889566,
+                "lng": 103.87718652215904
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sengkang Heartland"
+        },
+        {
+            "_id": "68a8982e9c899e19efc92ff3",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_HIjJT",
+            "status": "found",
+            "found_at": "2025-08-24T03:40:13.924Z",
+            "videos": [
+                "https://youtube.com/shorts/3likpkdyuw8?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Zaynaab",
+                "last_name": "Noor"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4560302881800027,
+                    "lng": 103.81304721422373
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4560302881800027,
+                "lng": 103.81304721422373
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sembawang Heartland"
+        },
+        {
+            "_id": "689f0d7ea2eee7f18995259c",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_d3H1e",
+            "status": "found",
+            "found_at": "2025-08-17T07:22:13.650Z",
+            "videos": [
+                "https://youtube.com/shorts/MEF4y_etfXA"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Zaynaab",
+                "last_name": "Noor"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4460768913756112,
+                    "lng": 103.83056672095677
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4460768913756112,
+                "lng": 103.83056672095677
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sembawang Heartland"
+        },
+        {
+            "_id": "68a48d63729fe54f913b865c",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_VZowE",
+            "status": "found",
+            "found_at": "2025-08-22T03:06:04.572Z",
+            "videos": [
+                "https://youtube.com/shorts/gvYcFPkHyTY?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Herman",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4411657468296681,
+                    "lng": 103.78558736665605
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4411657468296681,
+                "lng": 103.78558736665605
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Woodlands Heartland"
+        },
+        {
+            "_id": "689ca8b4eaeeba938e15fd6b",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_zQ5Gh",
+            "status": "found",
+            "found_at": "2025-08-17T06:33:51.070Z",
+            "videos": [
+                "https://youtube.com/shorts/KxOJDXLVvqw?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Sue",
+                "last_name": "Zheng Long"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4335079983741963,
+                    "lng": 103.78765564343007
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4335079983741963,
+                "lng": 103.78765564343007
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Woodlands Heartland"
+        },
+        {
+            "_id": "689f0d8bd2764e80da2e3b39",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_ycpXd",
+            "status": "found",
+            "found_at": "2025-08-17T10:38:35.228Z",
+            "videos": [
+                "https://youtube.com/shorts/x5YoK3yIcyE?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jin",
+                "last_name": "Wei Soh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4311289609520372,
+                    "lng": 103.77557463997562
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4311289609520372,
+                "lng": 103.77557463997562
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Woodlands Heartland"
+        },
+        {
+            "_id": "689f0d3c89c151f511d64e34",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_pIZd6",
+            "status": "found",
+            "found_at": "2025-08-17T06:42:36.419Z",
+            "videos": [
+                "https://youtube.com/shorts/1JJdrrBMZkQ"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Muhammad",
+                "last_name": "Haikal Bin Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3970799,
+                    "lng": 103.7486007
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3970799,
+                "lng": 103.7486007
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Choa Chu Kang Heartland "
+        },
+         {
+            "_id": "68a0a200097d783e8679b2ac",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_qco0S",
+            "status": "found",
+            "found_at": "2025-08-18T04:32:04.285Z",
+            "videos": [
+                "https://youtube.com/shorts/_0H-naCwr0k?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Nadira",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.376664176584896,
+                    "lng": 103.74267589848841
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.376664176584896,
+                "lng": 103.74267589848841
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Choa Chu Kang Heartland "
+        },
+        {
+            "_id": "689f0b2380ab6ad3d6bde67f",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_8PB3A",
+            "status": "found",
+            "found_at": "2025-08-18T02:39:33.981Z",
+            "videos": [
+                "https://youtube.com/shorts/qsqiLkp3EJc?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Nur",
+                "last_name": "Aqilah"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3860592,
+                    "lng": 103.7626089
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3860592,
+                "lng": 103.7626089
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Panjang Heartland"
+        },
+        {
+            "_id": "68a7421bfeb337369d3fca0e",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_C4THH",
+            "status": "found",
+            "found_at": "2025-08-23T04:01:56.485Z",
+            "videos": [
+                "https://youtube.com/shorts/o4ve6b2c4VA?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hamka",
+                "last_name": "Saadon"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3733278,
+                    "lng": 103.7763361
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3733278,
+                "lng": 103.7763361
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Panjang Heartland"
+        },
+        {
+            "_id": "689ca89fdea6743c00114859",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_LhbWa",
+            "status": "found",
+            "found_at": "2025-08-17T06:12:25.893Z",
+            "videos": [
+                "https://youtube.com/shorts/AKdM4eFzct8"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "prefix": "",
+            "winner_info": {
+                "first_name": "Aini",
+                "last_name": "Hashim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3434036942876402,
+                    "lng": 103.74768957761124
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3434036942876402,
+                "lng": 103.74768957761124
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Batok Heartland"
+        },
+        {
+            "_id": "68a203b4317c01db0ef8db46",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_fkLxJ",
+            "status": "found",
+            "found_at": "2025-08-20T03:47:15.462Z",
+            "videos": [
+                "https://youtube.com/shorts/eKFbTEeKuPU"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "扬",
+                "last_name": "宋"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3436363735778514,
+                    "lng": 103.75560957795597
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3436363735778514,
+                "lng": 103.75560957795597
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Batok Heartland"
+        },
+        {
+            "_id": "68a0a2ab3ff17d8f49a9b943",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_Gyo7I",
+            "status": "found",
+            "found_at": "2025-08-18T03:32:15.188Z",
+            "videos": [
+                "https://youtube.com/shorts/UoqsoMTaI-Y?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hanafi",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3359218992682855,
+                    "lng": 103.73837905674509
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3359218992682855,
+                "lng": 103.73837905674509
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "68a48cb970401c4e3b11a65d",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_GKNZP",
+            "status": "found",
+            "found_at": "2025-08-22T02:56:44.147Z",
+            "videos": [
+                "https://youtube.com/shorts/rOog41pv1fM?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Danish",
+                "last_name": "Rahman"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3150147464344144,
+                    "lng": 103.76785049455589
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3150147464344144,
+                "lng": 103.76785049455589
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name,": "Clementi Heartland"
+        },
+        {
+            "_id": "689e11cbc61cb2e848f87d1d",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_Z5dQj",
+            "status": "found",
+            "found_at": "2025-08-19T02:42:32.253Z",
+            "videos": [
+                "https://youtube.com/shorts/KVsyVaUGBQ4?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jun",
+                "last_name": "Liang Boo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3092858,
+                    "lng": 103.7699498
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3092858,
+                "lng": 103.7699498
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Clementi Heartland"
+        },
+        {
+            "_id": "68a5e11c3b3156229172baf9",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_Mo8Xu",
+            "status": "found",
+            "found_at": "2025-08-23T04:34:55.655Z",
+            "videos": [
+                "https://youtube.com/shorts/Bj_oqMajXTU?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Yong",
+                "last_name": "Ling"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3133932511314583,
+                    "lng": 103.87203915378245
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3133932511314583,
+                "lng": 103.87203915378245
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Kallang Heartland"
+        },
+        {
+            "_id": "689f0b2941d3da20929e6b5f",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_6zshw",
+            "status": "found",
+            "found_at": "2025-08-18T03:01:10.724Z",
+            "videos": [
+                "https://youtube.com/shorts/e2Y57FhZXgo?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Robin",
+                "last_name": "Toh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.318473,
+                    "lng": 103.8621397
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.318473,
+                "lng": 103.8621397
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Kallang Heartland"
+        },
+        {
+            "_id": "689ca8e85bb55015416c7b9b",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_xsHCC",
+            "status": "found",
+            "found_at": "2025-08-17T10:35:57.206Z",
+            "videos": [
+                "https://youtube.com/shorts/oeBmU86bXYw?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Qun",
+                "last_name": "Xiang Koh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.320267,
+                    "lng": 103.88451
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.320267,
+                "lng": 103.88451
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Geylang Heartland"
+        },
+        {
+            "_id": "689df90ebbea60eebc6c83a1",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_LiHSC",
+            "status": "found",
+            "found_at": "2025-08-17T10:30:50.476Z",
+            "videos": [
+                "https://youtube.com/shorts/55N90X4x-N4?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Wei",
+                "last_name": "Ying Tay"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3039389,
+                    "lng": 103.9086653
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3039389,
+                "lng": 103.9086653
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Marine Parade Heartland"
+        },
+        {
+            "_id": "689f0b2dea443168dc0264a2",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_1qGgg",
+            "status": "found",
+            "found_at": "2025-08-17T10:39:56.936Z",
+            "videos": [
+                "https://youtube.com/shorts/7EfMlrv0oFo?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Justin",
+                "last_name": "Francis"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3222170592890592,
+                    "lng": 103.93721247447843
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3222170592890592,
+                "lng": 103.93721247447843
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bedok Heartland"
+        },
+        {
+            "_id": "68a09a490d0cdc0836b6f4f2",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_3_b54Gk",
+            "status": "found",
+            "found_at": "2025-08-18T03:18:56.015Z",
+            "videos": [
+                "https://youtube.com/shorts/754_RoBNsVU?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Qun",
+                "last_name": "Xiang Koh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.334946332351734,
+                    "lng": 103.93101627318924
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.334946332351734,
+                "lng": 103.93101627318924
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bedok Heartland"
+        },
+        {
+            "_id": "689f12248beefa92b55a1221",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_CnR9V",
+            "status": "found",
+            "found_at": "2025-08-17T10:32:03.768Z",
+            "videos": [
+                "https://youtube.com/shorts/Q-6_6Dz9EF0?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Leonard",
+                "last_name": "Leong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3492110975455063,
+                    "lng": 103.95529255681731
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3492110975455063,
+                "lng": 103.95529255681731
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "689df93b4cdd25e552347fb2",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_xSNSu",
+            "status": "found",
+            "found_at": "2025-08-18T02:49:22.129Z",
+            "videos": [
+                "https://youtube.com/shorts/8hJrJ7p61JY?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jerrell",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3763984580317725,
+                    "lng": 103.94422538743083
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3763984580317725,
+                "lng": 103.94422538743083
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Pasir Ris Heartland"
+        },
+        {
+            "_id": "68a0998069a143975e48098c",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_Ph7sF",
+            "status": "found",
+            "found_at": "2025-08-18T03:47:45.575Z",
+            "videos": [
+                "https://youtube.com/shorts/E64eFqzPc2w?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hafizan",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3721011211375043,
+                    "lng": 103.9617722155873
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3721011211375043,
+                "lng": 103.9617722155873
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Pasir Ris Heartland"
+        },
+        {
+            "_id": "689f0b1c89c151f511d63d38",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_84G4x",
+            "status": "found",
+            "found_at": "2025-08-18T05:08:53.450Z",
+            "videos": [
+                "https://youtube.com/shorts/i-KNWFP_hRQ?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Muhammad",
+                "last_name": "Basyar"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3939595154502769,
+                    "lng": 103.88813638075521
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3939595154502769,
+                "lng": 103.88813638075521
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sengkang Heartland"
+        },
+        {
+            "_id": "689ca840f19beaef633a30f3",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_XWMxC",
+            "status": "found",
+            "found_at": "2025-08-19T04:06:11.500Z",
+            "videos": [
+                "https://youtube.com/shorts/b8HDW8gEQjM?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Loke",
+                "last_name": "Choi Kam"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.391702,
+                    "lng": 103.892128
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.391702,
+                "lng": 103.892128
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sengkang Heartland"
+        },
+        {
+            "_id": "68a48f03729fe54f913b976a",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_aYNFr",
+            "status": "found",
+            "found_at": "2025-08-24T14:14:38.501Z",
+            "videos": [
+                "https://youtube.com/shorts/FAnOwMomLrc?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Kah",
+                "last_name": "Cheong Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.367102871753005,
+                    "lng": 103.83681429786816
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.367102871753005,
+                "lng": 103.83681429786816
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Ang Mo Kio Heartland "
+        },
+        {
+            "_id": "689df903fadadab4851876b3",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_jGEVi",
+            "status": "found",
+            "found_at": "2025-08-17T10:34:01.448Z",
+            "videos": [
+                "https://youtube.com/shorts/xjEnr1L0wuk?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Malvis",
+                "last_name": ""
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.347828,
+                    "lng": 103.848093
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.347828,
+                "lng": 103.848093
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bishan Heartland"
+        },
+        {
+            "_id": "68a09b4ba16b86a81b500d1b",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_yTnNb",
+            "status": "found",
+            "found_at": "2025-08-18T02:44:47.265Z",
+            "videos": [
+                "https://youtube.com/shorts/Xx63v68Icxc?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Erwin",
+                "last_name": "Teo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.328624754058282,
+                    "lng": 103.85379347940955
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.328624754058282,
+                "lng": 103.85379347940955
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Toa Payoh Heartland "
+        },
+        {
+            "_id": "68a5e03dd6cea491eff357eb",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_eNNaQ",
+            "status": "found",
+            "found_at": "2025-08-23T03:59:22.599Z",
+            "videos": [
+                "https://youtube.com/shorts/Nvmqjvrg4hw?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Ting",
+                "last_name": "Jun Tan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3758047165874814,
+                    "lng": 103.88628532135681
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3758047165874814,
+                "lng": 103.88628532135681
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Hougang Heartland "
         }
     ],
     "error_message": "",
