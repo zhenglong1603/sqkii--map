@@ -14907,6 +14907,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Hougang Heartland "
+        },
+        {
+            "_id": "689df8e6367095b675482321",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_c70Zr",
+            "status": "found",
+            "found_at": "2025-08-17T06:56:42.947Z",
+            "videos": [
+                "https://youtube.com/shorts/0V4p2qO_akk"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hamidah",
+                "last_name": "Hashim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4458674076817033,
+                    "lng": 103.81536438847763
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4458674076817033,
+                "lng": 103.81536438847763
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sembawang Heartland"
         }
     ],
     "error_message": "",
