@@ -15139,6 +15139,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68a0a110d058c30517e8222e",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_1_O8lqF",
+            "status": "found",
+            "found_at": "2025-08-23T04:38:21.345Z",
+            "videos": [
+                "https://youtube.com/shorts/bOqwsBaXIAM?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Shannon",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2890761186392297,
+                    "lng": 103.82596858872796
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2890761186392297,
+                "lng": 103.82596858872796
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Merah Heartland"
         }
     ],
     "error_message": "",
