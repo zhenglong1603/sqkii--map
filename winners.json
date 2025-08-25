@@ -15110,6 +15110,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Geylang Heartland"
+        },
+        {
+            "_id": "689ca2ad79a5f122e236a7eb",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_3_JEWYn",
+            "status": "found",
+            "found_at": "2025-08-18T02:42:32.398Z",
+            "videos": [
+                "https://youtube.com/shorts/jmS23z3pRhI?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Yeow",
+                "last_name": "Wee Kiat"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3426798717286914,
+                    "lng": 103.93554501720246
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3426798717286914,
+                "lng": 103.93554501720246
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
         }
     ],
     "error_message": "",
