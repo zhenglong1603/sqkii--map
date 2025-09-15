@@ -17604,6 +17604,122 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Bedok Heartland"
+        },
+        {
+            "_id": "68a352aa70401c4e3b089bb1",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_5_jOSi6",
+            "status": "found",
+            "found_at": "2025-09-03T12:23:30.181Z",
+            "videos": [
+                "https://youtube.com/shorts/uApLLNERIA8?feature=share"
+            ],
+            "coin_number": 5,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Benedict",
+                "last_name": "Soo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3527071979440564,
+                    "lng": 103.94808498832617
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3527071979440564,
+                "lng": 103.94808498832617
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68b7fe4d54473af348f0ff6b",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_10_OcAXM",
+            "status": "found",
+            "found_at": "2025-09-03T12:22:14.466Z",
+            "videos": [
+                "https://youtube.com/shorts/X2IZpocDpiM?feature=share"
+            ],
+            "coin_number": 10,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jabez",
+                "last_name": "Wong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3525519,
+                    "lng": 103.9481816
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3525519,
+                "lng": 103.9481816
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68a89284b8b4d99dac51a5a4",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_6_41e94",
+            "status": "found",
+            "found_at": "2025-09-05T03:55:48.432Z",
+            "videos": [
+                "https://youtube.com/shorts/hSJNSrsaF4s?feature=share"
+            ],
+            "coin_number": 6,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Joyce",
+                "last_name": "Neo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3575663,
+                    "lng": 103.9527464
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3575663,
+                "lng": 103.9527464
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68ab1ba7c966d383c4d9c001",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_7_e9VHR",
+            "status": "found",
+            "found_at": "2025-08-26T03:06:42.003Z",
+            "videos": [
+                "https://youtube.com/shorts/y7RbKC4zE5A?feature=share"
+            ],
+            "coin_number": 7,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Lim",
+                "last_name": "Jia Wei"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3469512786015514,
+                    "lng": 103.93452571282683
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3469512786015514,
+                "lng": 103.93452571282683
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
         }
     ],
     "error_message": "",
