@@ -17749,6 +17749,93 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Bukit Merah Heartland"
+        },
+        {
+            "_id": "68a5b587f2e3ee932e491e58",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_3_UtJOG",
+            "status": "found",
+            "found_at": "2025-08-24T20:21:48.404Z",
+            "videos": [
+                "https://youtube.com/shorts/i9LLtfinMVs?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Shafiq",
+                "last_name": "Apandi"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3703356080478954,
+                    "lng": 103.95852214308343
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3703356080478954,
+                "lng": 103.95852214308343
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Pasir Ris Heartland"
+        },
+        {
+            "_id": "68bb0d2528272789b8350351",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_8_mUVW9",
+            "status": "found",
+            "found_at": "2025-09-07T02:30:54.490Z",
+            "videos": [
+                "https://youtube.com/shorts/mhwY3XR0XHk?feature=share"
+            ],
+            "coin_number": 8,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Emily",
+                "last_name": "Chong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.376477634604143,
+                    "lng": 103.94349213723376
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.376477634604143,
+                "lng": 103.94349213723376
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Pasir Ris Heartland"
+        },
+        {
+            "_id": "68a895f2e1e2698ce49e8215",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_3nrc6",
+            "status": "found",
+            "found_at": "2025-08-25T02:28:31.887Z",
+            "videos": [
+                "https://youtube.com/shorts/K7t6EkIJYNM?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Nigel",
+                "last_name": "Tan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3752236,
+                    "lng": 103.9427001
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3752236,
+                "lng": 103.9427001
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Pasir Ris Heartland"
         }
     ],
     "error_message": "",
