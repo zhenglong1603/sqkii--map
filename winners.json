@@ -17952,6 +17952,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Sengkang Heartland"
+        },
+        {
+            "_id": "68a7431a11ae276d38ffc8bd",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_2_jJddB",
+            "status": "found",
+            "found_at": "2025-08-25T04:21:20.404Z",
+            "videos": [
+                "https://youtube.com/shorts/iGu5AS9XZew?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Shiqiang",
+                "last_name": "Lim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4172511986287333,
+                    "lng": 103.90996832744656
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4172511986287333,
+                "lng": 103.90996832744656
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Punggol Heartland"
+        },
+        {
+            "_id": "68ac4900b8b4d99dac7c493b",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_3_L9twQ",
+            "status": "found",
+            "found_at": "2025-08-28T02:18:50.503Z",
+            "videos": [
+                "https://youtube.com/shorts/8SavAusgjz0"
+            ],
+            "coin_number": 3,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Ding",
+                "last_name": "Jun Justin Han"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.405267428343322,
+                    "lng": 103.897807457505
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.405267428343322,
+                "lng": 103.897807457505
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Punggol Heartland"
         }
     ],
     "error_message": "",
