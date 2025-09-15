@@ -18010,6 +18010,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Punggol Heartland"
+        },
+        {
+            "_id": "68c2d774d29eed4ba0108fd6",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_9_22xvi",
+            "status": "found",
+            "found_at": "2025-09-15T09:16:50.464Z",
+            "videos": [
+                "https://youtube.com/shorts/76EjhnSJ9DU?feature=share"
+            ],
+            "coin_number": 9,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Xin",
+                "last_name": "Yi"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3733625798096938,
+                    "lng": 103.9583337176457
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3733625798096938,
+                "lng": 103.9583337176457
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Pasir Ris Heartland"
         }
     ],
     "error_message": "",
