@@ -18039,6 +18039,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Pasir Ris Heartland"
+        },
+        {
+            "_id": "68c4f61453bacfd2201f5e49",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_7_4HGn5",
+            "status": "found",
+            "found_at": "2025-09-15T13:43:52.553Z",
+            "videos": [
+                "https://youtube.com/shorts/XYZNm4NXyIY"
+            ],
+            "coin_number": 7,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Kah",
+                "last_name": "Boon Tan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3795375946751136,
+                    "lng": 103.89303725330979
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3795375946751136,
+                "lng": 103.89303725330979
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Hougang Heartland "
         }
     ],
     "error_message": "",
