@@ -18302,8 +18302,8 @@
             "brand_name": "Tampines Heartland"
         },
         {
-            "_id": "68c59e2f59d68289651b7761",
-            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_6_899Fl",
+            "_id": "68c59e2f59d68189651b7761",
+            "coin_id": "htm_tool_sg_687f0793377fc19d23d16a65_dbs_6_899Fl",
             "status": "found",
             "found_at": "2025-09-16T09:54:56.536Z",
             "videos": [
@@ -18323,8 +18323,8 @@
                 "radius": 10
             },
             "location": {
-                "lat": 1.351853295346288,
-                "lng": 103.95234750310487
+                "lat": 1.3468372515658775,
+                "lng": 103.75259126186975
             },
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
