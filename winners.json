@@ -18213,6 +18213,93 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Bedok Heartland"
+        },
+        {
+            "_id": "68c63504254f8864fee4f992",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_7_NlwtH",
+            "status": "found",
+            "found_at": "2025-09-16T09:58:22.257Z",
+            "videos": [
+                "https://youtube.com/shorts/5XUXBkvq6E0?feature=share"
+            ],
+            "coin_number": 7,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Nabil",
+                "last_name": "Malik"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3504128,
+                    "lng": 103.7497585
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3504128,
+                "lng": 103.7497585
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Batok Heartland"
+        },
+        {
+            "_id": "68c6ae6c2bd6e38e7c690864",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_11_Et86D",
+            "status": "found",
+            "found_at": "2025-09-16T09:56:55.440Z",
+            "videos": [
+                "https://youtube.com/shorts/DqpQ3ohpWz0?feature=share"
+            ],
+            "coin_number": 11,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Shirley",
+                "last_name": "Neo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.320729366470971,
+                    "lng": 103.93693987653944
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.320729366470971,
+                "lng": 103.93693987653944
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bedok Heartland"
+        },
+        {
+            "_id": "68c59e2f59d68289651b7761",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_13_899Fl",
+            "status": "found",
+            "found_at": "2025-09-16T09:54:56.536Z",
+            "videos": [
+                "https://youtube.com/shorts/gmtTHfUwRz8?feature=share"
+            ],
+            "coin_number": 13,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Shirley",
+                "last_name": "Neo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.351853295346288,
+                    "lng": 103.95234750310487
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.351853295346288,
+                "lng": 103.95234750310487
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
         }
     ],
     "error_message": "",
