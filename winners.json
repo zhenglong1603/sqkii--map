@@ -18300,6 +18300,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68c59e2f59d68289651b7761",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_6_899Fl",
+            "status": "found",
+            "found_at": "2025-09-16T09:54:56.536Z",
+            "videos": [
+                "https://youtube.com/shorts/3QLH5DytVDY?si=H629_VfQ9LMtRYDr"
+            ],
+            "coin_number": 6,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Syakira",
+                "last_name": "Elfiana"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3468372515658775,
+                    "lng": 103.75259126186975
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.351853295346288,
+                "lng": 103.95234750310487
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Batok Heartland"
         }
     ],
     "error_message": "",
