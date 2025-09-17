@@ -18358,6 +18358,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Queenstown Heartland"
+        },
+        {
+            "_id": "68b04a0e524c4bc32e80aa55",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_34Ed2",
+            "status": "found",
+            "found_at": "2025-09-17T07:33:35.325Z",
+            "videos": [
+                "https://youtube.com/shorts/jsUyiCgedfQ?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jun",
+                "last_name": "Liang Boo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3280386,
+                    "lng": 103.8866333
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3280386,
+                "lng": 103.8866333
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Geylang Heartland"
         }
     ],
     "error_message": "",
