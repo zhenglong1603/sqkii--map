@@ -18329,6 +18329,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Bukit Batok Heartland"
+        },
+        {
+            "_id": "68c59d57d29eed4ba01a539c",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_5_LaKZe",
+            "status": "found",
+            "found_at": "2025-09-17T03:00:18.652Z",
+            "videos": [
+                "https://youtube.com/shorts/DLyGcOgwnPI?feature=share"
+            ],
+            "coin_number": 5,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hanafi",
+                "last_name": "Hasnol"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2933268146027217,
+                    "lng": 103.80804863625917
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2933268146027217,
+                "lng": 103.80804863625917
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Queenstown Heartland"
         }
     ],
     "error_message": "",
