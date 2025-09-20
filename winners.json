@@ -18590,6 +18590,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "68cad59db416d5dacca75768",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_7_SMBq4",
+            "status": "found",
+            "found_at": "2025-09-20T11:32:43.794Z",
+            "videos": [
+                "https://youtube.com/shorts/ousOZpfu75w?feature=share"
+            ],
+            "coin_number": 7,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Long",
+                "last_name": "Lai Siau"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3185360046921204,
+                    "lng": 103.88797107328719
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3185360046921204,
+                "lng": 103.88797107328719
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Geylang Heartland"
         }
     ],
     "error_message": "",
