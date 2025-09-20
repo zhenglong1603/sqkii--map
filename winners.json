@@ -18474,8 +18474,123 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Yishun Heartland"
+        },
+        {
+            "_id": "68cad4ec5dfae4f71a3a60c1",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_11_YW3qv",
+            "status": "found",
+            "found_at": "2025-09-20T01:21:10.063Z",
+            "videos": [
+                "https://youtube.com/shorts/Wt2qylq4JHc?feature=share"
+            ],
+            "coin_number": 11,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jin",
+                "last_name": "Wei Soh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4175298635833116,
+                    "lng": 103.83628317633156
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4175298635833116,
+                "lng": 103.83628317633156
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Yishun Heartland"
+        },
+        {
+            "_id": "68c95e3259d68289652843a0",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_14_yIO6Z",
+            "status": "found",
+            "found_at": "2025-09-19T13:12:07.128Z",
+            "videos": [
+                "https://youtube.com/shorts/9xH4ahFagEU?feature=share"
+            ],
+            "coin_number": 14,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Ruzaini",
+                "last_name": "Sabtu"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3507162904686254,
+                    "lng": 103.94525851759204
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3507162904686254,
+                "lng": 103.94525851759204
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68cad60b5dfae4f71a3a685e",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_5_MKPi2",
+            "status": "found",
+            "found_at": "2025-09-20T01:19:19.669Z",
+            "videos": [
+                "https://youtube.com/shorts/h-9JwD7SJQk?feature=share"
+            ],
+            "coin_number": 5,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Annie",
+                "last_name": "Poh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3047689565574103,
+                    "lng": 103.91246686342265
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3047689565574103,
+                "lng": 103.91246686342265
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Marine Parade Heartland"
+        },
+        {
+            "_id": "68c95f293d338848c4751871",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_13_ecmgB",
+            "status": "found",
+            "found_at": "2025-09-19T13:09:48.035Z",
+            "videos": [
+                "https://youtube.com/shorts/cKp21QFHyW0?feature=share"
+            ],
+            "coin_number": 13,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Tiara",
+                "last_name": "Ellefreda"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3208535,
+                    "lng": 103.742146
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3208535,
+                "lng": 103.742146
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
         }
-
     ],
     "error_message": "",
     "error_code": ""
