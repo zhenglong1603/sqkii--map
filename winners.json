@@ -18619,6 +18619,93 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Geylang Heartland"
+        },
+        {
+            "_id": "68cad76abf6ccbfb3778cc58",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_6_bFeoh",
+            "status": "found",
+            "found_at": "2025-09-21T05:27:34.168Z",
+            "videos": [
+                "https://youtube.com/shorts/c-ngpJQ7qBg?feature=share"
+            ],
+            "coin_number": 6,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Long",
+                "last_name": "Lai Siau"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.375974,
+                    "lng": 103.7679177
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.375974,
+                "lng": 103.7679177
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Panjang Heartland"
+        },
+        {
+            "_id": "68cad6b739e3888076674b2f",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_14_Nu4dI",
+            "status": "found",
+            "found_at": "2025-09-21T05:29:13.963Z",
+            "videos": [
+                "https://youtube.com/shorts/ijRoI368KZw?feature=share"
+            ],
+            "coin_number": 14,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Cheong",
+                "last_name": "Hoo Thim "
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.446035,
+                    "lng": 103.83535
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.446035,
+                "lng": 103.83535
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sembawang Heartland"
+        },
+        {
+            "_id": "68cd6fca170e93412adb897e",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_10_42mZP",
+            "status": "found",
+            "found_at": "2025-09-21T05:30:46.131Z",
+            "videos": [
+                "https://youtube.com/shorts/r8rRPBZk4mw?feature=share"
+            ],
+            "coin_number": 10,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Lin",
+                "last_name": "Bing Hoe"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.390235258338521,
+                    "lng": 103.87678856849925
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.390235258338521,
+                "lng": 103.87678856849925
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sengkang Heartland"
         }
     ],
     "error_message": "",
