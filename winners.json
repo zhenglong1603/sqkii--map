@@ -18706,6 +18706,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Sengkang Heartland"
+        },
+        {
+            "_id": "68c4456bdadbd592ae55b781",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_13_brdeG",
+            "status": "found",
+            "found_at": "2025-09-21T09:56:01.311Z",
+            "videos": [
+                "https://youtube.com/shorts/iynlpAHUp9U?feature=share"
+            ],
+            "coin_number": 13,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Nicholas",
+                "last_name": "Dai"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.44607,
+                    "lng": 103.8127622
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.44607,
+                "lng": 103.8127622
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sembawang Heartland"
         }
     ],
     "error_message": "",
