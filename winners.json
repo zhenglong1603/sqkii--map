@@ -18996,7 +18996,65 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Bukit Batok Heartland"
-        }
+        },
+        {
+            "_id": "68d00f41eef2980aa51b747d",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_7_r20pZ",
+            "status": "found",
+            "found_at": "2025-09-23T11:13:21.655Z",
+            "videos": [
+                "https://youtube.com/shorts/S4DPjeM5usY"
+            ],
+            "coin_number": 7,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jabez",
+                "last_name": "Wong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3128214567102816,
+                    "lng": 103.7640921025685
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3128214567102816,
+                "lng": 103.7640921025685
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Clementi Heartland"
+        },
+        {
+            "_id": "68ce714f51f5cae5297ca830",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_16_A6o9o",
+            "status": "found",
+            "found_at": "2025-09-23T11:27:33.756Z",
+            "videos": [
+                "https://youtube.com/shorts/Lj9E0pY9o_0"
+            ],
+            "coin_number": 16,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Ian",
+                "last_name": "Lowe"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3553805334232436,
+                    "lng": 103.94549070752566
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3553805334232436,
+                "lng": 103.94549070752566
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
+        }        
     ],
     "error_message": "",
     "error_code": ""
