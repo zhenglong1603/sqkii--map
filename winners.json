@@ -19083,7 +19083,123 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Kallang Heartland"
-        }  
+        },
+        {
+            "_id": "68cd6d2edaefa1316e75f308",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_14_gcNMc",
+            "status": "found",
+            "found_at": "2025-09-24T04:18:11.827Z",
+            "videos": [
+                "https://youtube.com/shorts/8hWiNoLz6lI"
+            ],
+            "coin_number": 14,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Kai",
+                "last_name": "Le Yeap"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.344357,
+                    "lng": 103.7243579
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.344357,
+                "lng": 103.7243579
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "68d14348daefa1316e820cb3",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_15_2t7c9",
+            "status": "found",
+            "found_at": "2025-09-24T12:07:30.411Z",
+            "videos": [
+                "https://youtube.com/shorts/A_fNHnjJMQg"
+            ],
+            "coin_number": 15,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Syarin",
+                "last_name": "Alfian"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3462884930088137,
+                    "lng": 103.73324255534476
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3462884930088137,
+                "lng": 103.73324255534476
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "68d2c8f5c3ca22334dc3510e",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_6_kcLu1",
+            "status": "found",
+            "found_at": "2025-09-24T12:04:25.786Z",
+            "videos": [
+                "https://youtube.com/shorts/dH7bRpp63RQ"
+            ],
+            "coin_number": 6,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hong",
+                "last_name": "Fai Loke"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2738572,
+                    "lng": 103.8394871
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2738572,
+                "lng": 103.8394871
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Merah Heartland"
+        },
+        {
+            "_id": "68d044f8eef2980aa51be591",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_8_RxkYh",
+            "status": "found",
+            "found_at": "2025-09-24T10:03:11.643Z",
+            "videos": [
+                "https://youtube.com/shorts/Z59V569HdNk"
+            ],
+            "coin_number": 8,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Goh",
+                "last_name": "Zhi Song"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3740726,
+                    "lng": 103.8902412
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3740726,
+                "lng": 103.8902412
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Hougang Heartland "
+        }
     ],
     "error_message": "",
     "error_code": ""
