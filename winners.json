@@ -19054,7 +19054,36 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Tampines Heartland"
-        }        
+        },
+        {
+            "_id": "68d1434d64d0c670c003f25d",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_54dgz",
+            "status": "found",
+            "found_at": "2025-09-24T03:49:48.356Z",
+            "videos": [
+                "https://youtube.com/shorts/I5dv0d09uBE"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Linus",
+                "last_name": "Tan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3131971491999508,
+                    "lng": 103.87062767824739
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3131971491999508,
+                "lng": 103.87062767824739
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Kallang Heartland"
+        }  
     ],
     "error_message": "",
     "error_code": ""
