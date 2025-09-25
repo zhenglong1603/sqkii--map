@@ -19199,6 +19199,122 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Hougang Heartland "
+        },
+        {
+            "_id": "68d3f975c45f42d3279c76e6",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_14_tSAIj",
+            "status": "found",
+            "found_at": "2025-09-25T06:56:58.953Z",
+            "videos": [
+                "https://youtube.com/shorts/vZJ5BwACBiE"
+            ],
+            "coin_number": 14,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Hock",
+                "last_name": "Siah Tay"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.420548441416571,
+                    "lng": 103.8337199667451
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.420548441416571,
+                "lng": 103.8337199667451
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Yishun Heartland"
+        },
+        {
+            "_id": "68d2c7e2170e93412aec18d5",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_13_XFMzF",
+            "status": "found",
+            "found_at": "2025-09-25T02:49:31.714Z",
+            "videos": [
+                "https://youtube.com/shorts/K6Js0iSktq4?feature=share"
+            ],
+            "coin_number": 13,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Xuan",
+                "last_name": "Fan Lau"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.431139059340552,
+                    "lng": 103.8369099155359
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.431139059340552,
+                "lng": 103.8369099155359
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Yishun Heartland"
+        },
+        {
+            "_id": "68d2ca3e64d0c670c007e4d5",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_4_JlxQR",
+            "status": "found",
+            "found_at": "2025-09-25T02:44:35.180Z",
+            "videos": [
+                "https://youtube.com/shorts/OwS4M3mADzU"
+            ],
+            "coin_number": 4,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Kelvin",
+                "last_name": "Lim"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3513141558792938,
+                    "lng": 103.8371615946919
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3513141558792938,
+                "lng": 103.8371615946919
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bishan Heartland"
+        },
+        {
+            "_id": "68d2c754c3ca22334dc34c84",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_17_PICkX",
+            "status": "found",
+            "found_at": "2025-09-25T06:55:34.152Z",
+            "videos": [
+                "https://youtube.com/shorts/uRG4cwru0o4"
+            ],
+            "coin_number": 17,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Kelvin",
+                "last_name": "Kan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.451527814054856,
+                    "lng": 103.81836302864599
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.451527814054856,
+                "lng": 103.81836302864599
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Sembawang Heartland"
         }
     ],
     "error_message": "",
