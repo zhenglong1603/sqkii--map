@@ -19315,6 +19315,180 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Sembawang Heartland"
+        },
+        {
+            "_id": "68d2c874daefa1316e85e306",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_7_oT3oP",
+            "status": "found",
+            "found_at": "2025-09-25T09:41:26.976Z",
+            "videos": [
+                "https://youtube.com/shorts/u2TyXKw0Cq8"
+            ],
+            "coin_number": 7,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Zhaoyang",
+                "last_name": "Chu"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3791789958146836,
+                    "lng": 103.7629293531536
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3791789958146836,
+                "lng": 103.7629293531536
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Bukit Panjang Heartland"
+        },
+        {
+            "_id": "68d3f9c8c45f42d3279c77f5",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_17_UdncD",
+            "status": "found",
+            "found_at": "2025-09-25T13:51:15.170Z",
+            "videos": [
+                "https://youtube.com/shorts/yPiYXSoG-jc"
+            ],
+            "coin_number": 17,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Chern",
+                "last_name": "Huei Ngion"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3422711517762025,
+                    "lng": 103.7398214144871
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3422711517762025,
+                "lng": 103.7398214144871
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
+        },
+        {
+            "_id": "68d3faae170e93412aef23ea",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_8_u6ByY",
+            "status": "found",
+            "found_at": "2025-09-25T13:48:17.466Z",
+            "videos": [
+                "https://youtube.com/shorts/ZhJQILifDNg"
+            ],
+            "coin_number": 8,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Yong",
+                "last_name": "Wei Pheng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3581007551684365,
+                    "lng": 103.88794615771303
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3581007551684365,
+                "lng": 103.88794615771303
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Serangoon Heartland"
+        },
+         {
+            "_id": "68d3fb88c45f42d3279c7e0d",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_15_Q9gJH",
+            "status": "found",
+            "found_at": "2025-09-25T13:41:09.443Z",
+            "videos": [
+                "https://youtube.com/shorts/J7HwEEcux7E?feature=share"
+            ],
+            "coin_number": 15,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Zhen",
+                "last_name": "Kit Ho"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4260912927391587,
+                    "lng": 103.84547892420812
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4260912927391587,
+                "lng": 103.84547892420812
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Yishun Heartland"
+        },
+        {
+            "_id": "68d3f82eeef2980aa525a9a2",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_8_y4iSm",
+            "status": "found",
+            "found_at": "2025-09-25T13:45:19.690Z",
+            "videos": [
+                "https://youtube.com/shorts/pu8fdZZQ5qw"
+            ],
+            "coin_number": 8,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Muhammad",
+                "last_name": "Nuraizat Bin Safiee"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.400103,
+                    "lng": 103.909693
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.400103,
+                "lng": 103.909693
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Punggol Heartland"
+        },
+        {
+            "_id": "68d3fb10a2b7e6fb063e91a9",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_17_HYXnw",
+            "status": "found",
+            "found_at": "2025-09-25T10:02:41.909Z",
+            "videos": [
+                "https://youtube.com/shorts/wPakYppSl-o"
+            ],
+            "coin_number": 17,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Joseph",
+                "last_name": "Fong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.354701966657558,
+                    "lng": 103.95842919419374
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.354701966657558,
+                "lng": 103.95842919419374
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Tampines Heartland"
         }
     ],
     "error_message": "",
