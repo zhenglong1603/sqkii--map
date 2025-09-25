@@ -19489,6 +19489,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Tampines Heartland"
+        },
+        {
+            "_id": "68d3fc1664d0c670c00ae2e9",
+            "coin_id": "htm_tool_sg_68ce6e00c16ea56538ce5158_dbs_8_MLhzA",
+            "status": "found",
+            "found_at": "2025-09-25T14:45:26.556Z",
+            "videos": [
+                "https://youtube.com/shorts/62PL0M029zQ"
+            ],
+            "coin_number": 8,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Jerald",
+                "last_name": "Cher"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3122392,
+                    "lng": 103.7700309
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3122392,
+                "lng": 103.7700309
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Clementi Heartland"
         }
     ],
     "error_message": "",
