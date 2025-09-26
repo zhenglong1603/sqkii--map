@@ -19518,6 +19518,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "dbs",
             "brand_name": "Clementi Heartland"
+        },
+        {
+            "_id": "68d3f88851f5cae5298d623a",
+            "coin_id": "htm_tool_sg_687f0793377fc10d23d16a65_dbs_16_9wElx",
+            "status": "found",
+            "found_at": "2025-09-26T02:50:39.516Z",
+            "videos": [
+                "https://youtube.com/shorts/iQVzkUzh6yU"
+            ],
+            "coin_number": 16,
+            "reward": "S$600 Cash!",
+            "winner_info": {
+                "first_name": "Lyekim",
+                "last_name": "Tay"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.343934785180565,
+                    "lng": 103.71353606244247
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.343934785180565,
+                "lng": 103.71353606244247
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "dbs",
+            "brand_name": "Jurong Heartland"
         }
     ],
     "error_message": "",
