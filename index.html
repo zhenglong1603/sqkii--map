@@ -1,253 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sqkii Coin Map</title>
-    <link rel="icon" type="image/png" href="src/images/sqkiiLogo.png" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <style>
-      /* Set the size of the map */
-      #map {
-        height: 90vh; /* Reduced height to accommodate the filter */
-        width: 100%;
-      }
-      #filter {
-        margin: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="filter">
-      <label for="coinFilter">Filter by Coin Type:</label>
-      <select id="coinFilter">
-        <option value="all">All</option>
-        <option value="dbs">DBS</option>
-        <option value="Discovery">Sentosa Discovery</option>
-        <option value="gold">HTM 2024 Gold</option>
-        <option value="evergreen">Evergreen</option>
-        <option value="sentosa">Sentosa</option>
-        <option value="capitaland">Science Park</option>
-        <option value="sqkii ">Sqkii</option>
-        <option value="etiqa">Etiqa</option>
-        <option value="tiger">Tiger</option>
-        <option value="burger_king">Burger King</option>
-        <option value="myvillage">MyVillage</option>
-        <option value="nestle_professional">Milo</option>
-        <option value="singapore_police_force">ACT</option>
-        <option value="lendlease">LendLease</option>
-      </select>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sqkii Coin Map</title>
+  <link rel="icon" type="image/png" href="src/images/sqkiiLogo.png" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 90vh;
+      width: 100%;
+    }
 
-    <div id="map"></div>
+    #filter {
+      position: relative;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      padding: 2px 4px;
+      background: white;
+    }
 
-    <!-- Move Leaflet script to the bottom for better performance -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-      function createCustomIcon(backgroundColor, dollarColor) {
-        return L.divIcon({
-          className: "custom-marker",
-          iconSize: [30, 30], // Set the size for the circle
-          iconAnchor: [15, 15], // Adjust the anchor point to match the circle size
-          popupAnchor: [0, -15],
-          html: `
-      <div style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: ${backgroundColor}; /* Use the input color for the background */
-        width: 30px;
-        height: 30px;
-        border-radius: 50%; /* Make it circular */
-        border: 2px solid #000; /* Black border for visibility */
-        box-shadow: 0px 2px 5px rgba(0,0,0,0.3); /* Optional shadow for depth */
-        font-size: 16px; /* Adjust font size */
-        font-weight: bold; /* Bold font for the dollar sign */
-        color: ${dollarColor}; 
-      ">
-        $
+    .dropbtn {
+      background-color: #ffffff;
+      color: black;
+      padding: 6px 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      max-height: 300px;
+      overflow-y: auto;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      padding: 10px;
+      z-index: 1001;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .dropdown-content label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="filter">
+    <label>Filter by Coin Type:</label>
+    <div class="dropdown" style="margin-left: 10px; position: relative;">
+      <button onclick="toggleDropdown()" class="dropbtn">Select Coin Types ▼</button>
+      <div id="checkboxDropdown" class="dropdown-content">
+        <label><input type="checkbox" id="selectAll" checked> Select All</label>
+        <hr>
+        <label><input type="checkbox" class="coinCheckbox" value="dbs" checked> DBS</label>
+        <label><input type="checkbox" class="coinCheckbox" value="discovery" checked> Sentosa Discovery</label>
+        <label><input type="checkbox" class="coinCheckbox" value="gold" checked> HTM 2024 Gold</label>
+        <label><input type="checkbox" class="coinCheckbox" value="evergreen" checked> Evergreen</label>
+        <label><input type="checkbox" class="coinCheckbox" value="sentosa" checked> Sentosa</label>
+        <label><input type="checkbox" class="coinCheckbox" value="capitaland" checked> Science Park</label>
+        <label><input type="checkbox" class="coinCheckbox" value="sqkii" checked> Sqkii</label>
+        <label><input type="checkbox" class="coinCheckbox" value="etiqa" checked> Etiqa</label>
+        <label><input type="checkbox" class="coinCheckbox" value="tiger" checked> Tiger</label>
+        <label><input type="checkbox" class="coinCheckbox" value="burger_king" checked> Burger King</label>
+        <label><input type="checkbox" class="coinCheckbox" value="myvillage" checked> MyVillage</label>
+        <label><input type="checkbox" class="coinCheckbox" value="nestle_professional" checked> Milo</label>
+        <label><input type="checkbox" class="coinCheckbox" value="singapore_police_force" checked> ACT</label>
+        <label><input type="checkbox" class="coinCheckbox" value="lendlease" checked> LendLease</label>
       </div>
-    `,
-        });
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    function toggleDropdown() {
+      document.getElementById("checkboxDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        const dropdowns = document.getElementsByClassName("dropdown-content");
+        for (let i = 0; i < dropdowns.length; i++) {
+          if (dropdowns[i].classList.contains('show')) {
+            dropdowns[i].classList.remove('show');
+          }
+        }
       }
+    }
 
-      // Initialize the map
-      var map = L.map("map").setView([1.3521, 103.8198], 13); // Coordinates of Singapore
+    var map = L.map("map").setView([1.3521, 103.8198], 13);
 
-      // Add OpenStreetMap tiles
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      }).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
 
-      let allMarkers = []; // Store all markers
+    let allMarkers = [];
 
-      // Fetch the JSON data
-      fetch("winners.json") // Replace with the actual path to your JSON file
-        .then((response) => response.json())
-        .then((data) => {
-          if (data && data.data) {
-            const winnersData = data.data.map((winner) => ({
-              coin_id: winner.coin_id,
-              coin_number: winner.coin_number,
-              location: winner.location,
-              winner_info: winner.winner_info,
-              reward: winner.reward,
-              video: winner.videos,
-              brand_name:winner.brand_name
-            }));
+    function createCustomIcon(backgroundColor, dollarColor) {
+      return L.divIcon({
+        className: "custom-marker",
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+        popupAnchor: [0, -15],
+        html: `<div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: ${backgroundColor};
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 2px solid #000;
+          box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+          font-size: 16px;
+          font-weight: bold;
+          color: ${dollarColor};
+        ">$</div>`,
+      });
+    }
 
-            // Add markers and store them
-            winnersData.forEach((winner) => {
-              const {
-                coin_id,
-                coin_number,
-                location,
-                winner_info,
-                reward,
-                video,
-                brand_name
-              } = winner;
+    fetch("winners.json")
+      .then((response) => response.json())
+      .then((data) => {
+        if (data && data.data) {
+          const winnersData = data.data.map((winner) => ({
+            coin_id: winner.coin_id,
+            coin_number: winner.coin_number,
+            location: winner.location,
+            winner_info: winner.winner_info,
+            reward: winner.reward,
+            video: winner.videos,
+            brand_name: winner.brand_name
+          }));
 
-              // Extract winner's name
-              const firstName = winner_info?.first_name;
-              const lastName = winner_info?.last_name;
-              const fullName = `${firstName} ${lastName}`;
+          winnersData.forEach((winner) => {
+            const { coin_id, coin_number, location, winner_info, reward, video, brand_name } = winner;
+            const fullName = `${winner_info?.first_name || ""} ${winner_info?.last_name || ""}`;
 
-              // Filter and display custom messages based on coin_id
-              // Function to generate the popup message and handle video link
-              function generatePopupMessage(
-                coin_id,
-                coin_number,
-                fullName,
-                reward,
-                video,
-                brand_name
-              ) {
-                let popupMessage = "";
-                let markerColor = "#d41dcb"; // Default pink color
-                let dollarColor = "#080808"; // Default white color
+            function generatePopupMessage(coin_id, coin_number, fullName, reward, video, brand_name) {
+              let popupMessage = "";
+              let markerColor = "#d41dcb";
+              let dollarColor = "#080808";
+              const videoLink = video && video.length > 0 ? video[0] : null;
 
-                const videoLink = video && video.length > 0 ? video[0] : null;
-
-                if (coin_id.toLowerCase().includes("sentosa")) {
-                  popupMessage = `Sentosa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#ADB2D4"; // Light Blue
-                } else if (coin_id.toLowerCase().includes("dbs")) {
-                  popupMessage = `DBS ${brand_name} ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#FF0000"; // Bright Red
-                } else if (coin_id.toLowerCase().includes("discovery")) {
-                  popupMessage = `Discovery Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#ADD8E6"; // Light Blue
-                } else if (coin_id.toLowerCase().includes("evergreen")) {
-                  popupMessage = `Evergreen Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#1dd428"; // Green
-                } else if (coin_id.toLowerCase().includes("capitaland")) {
-                  popupMessage = `Science Park Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#C4A484"; // Light Brow
-                } else if (coin_id.toLowerCase().includes("sqkii")) {
-                  popupMessage = `Sqkii Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#1dbed4"; // Blue
-                } else if (coin_id.toLowerCase().includes("etiqa")) {
-                  popupMessage = `Etiqa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#6f7089"; // Red
-                } else if (coin_id.toLowerCase().includes("tiger")) {
-                  popupMessage = `Tiger Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#fd8a8a"; // Yellow
-                } else if (coin_id.toLowerCase().includes("burger_king")) {
-                  popupMessage = `BK Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#ed7902"; // Orange
-                } else if (coin_id.toLowerCase().includes("myvillage")) {
-                  popupMessage = `MV Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#8e44ad"; // Purple
-                } else if (
-                  coin_id.toLowerCase().includes("nestle_professional")
-                ) {
-                  popupMessage = `Milo Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#FFCBCB"; // Bright Green
-                } else if (
-                  coin_id.toLowerCase().includes("singapore_police_force")
-                ) {
-                  popupMessage = `ACT Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#000cff"; // Teal
-                  dollarColor = "#fff"; // White
-                } else if (coin_id.toLowerCase().includes("lendlease")) {
-                  popupMessage = `LendLease Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#080808"; // Black
-                  dollarColor = "#fff"; // White
-                } else if (coin_id.toLowerCase().includes("gold")) {
-                  popupMessage = `Gold Coin!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                  markerColor = "#f4d451"; // Gold
-                } else {
-                  popupMessage = `Unknown Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
-                }
-
-                // Add the video link if it exists
-                if (videoLink) {
-                  popupMessage += `<br><a href="${videoLink}" target="_blank" style="color: blue; text-decoration: underline;">Click here to watch the video</a>`;
-                }
-
-                return { popupMessage, markerColor, dollarColor };
+              if (coin_id.toLowerCase().includes("sentosa")) {
+                popupMessage = `Sentosa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#ADB2D4";
+              } else if (coin_id.toLowerCase().includes("dbs")) {
+                popupMessage = `DBS ${brand_name} ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#FF0000";
+              } else if (coin_id.toLowerCase().includes("discovery")) {
+                popupMessage = `Discovery Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#ADD8E6";
+              } else if (coin_id.toLowerCase().includes("evergreen")) {
+                popupMessage = `Evergreen Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#1dd428";
+              } else if (coin_id.toLowerCase().includes("capitaland")) {
+                popupMessage = `Science Park Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#C4A484";
+              } else if (coin_id.toLowerCase().includes("sqkii")) {
+                popupMessage = `Sqkii Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#1dbed4";
+              } else if (coin_id.toLowerCase().includes("etiqa")) {
+                popupMessage = `Etiqa Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#6f7089";
+              } else if (coin_id.toLowerCase().includes("tiger")) {
+                popupMessage = `Tiger Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#fd8a8a";
+              } else if (coin_id.toLowerCase().includes("burger_king")) {
+                popupMessage = `BK Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#ed7902";
+              } else if (coin_id.toLowerCase().includes("myvillage")) {
+                popupMessage = `MV Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#8e44ad";
+              } else if (coin_id.toLowerCase().includes("nestle_professional")) {
+                popupMessage = `Milo Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#FFCBCB";
+              } else if (coin_id.toLowerCase().includes("singapore_police_force")) {
+                popupMessage = `ACT Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#000cff";
+                dollarColor = "#fff";
+              } else if (coin_id.toLowerCase().includes("lendlease")) {
+                popupMessage = `LendLease Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#080808";
+                dollarColor = "#fff";
+              } else if (coin_id.toLowerCase().includes("gold")) {
+                popupMessage = `Gold Coin!!<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                markerColor = "#f4d451";
+              } else {
+                popupMessage = `Unknown Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
               }
 
-              // Example usage:
-              const { popupMessage, markerColor, dollarColor } =
-                generatePopupMessage(
-                  coin_id,
-                  coin_number,
-                  fullName,
-                  reward,
-                  video,
-                  brand_name
-                );
+              if (videoLink) {
+                popupMessage += `<br><a href="${videoLink}" target="_blank" style="color: blue; text-decoration: underline;">Click here to watch the video</a>`;
+              }
 
-              // Create marker
-              const customIcon = createCustomIcon(markerColor, dollarColor);
-              const marker = L.marker([location.lat, location.lng], {
-                icon: customIcon,
-              }).bindPopup(`<b>${popupMessage}</b>`);
-
-              // Add to map and store
-              marker.addTo(map);
-              allMarkers.push({ coin_id, marker });
-            });
-
-            // Setup filter functionality
-            setupFilter();
-          } else {
-            console.error(
-              "No winners data available or data is not in the expected format"
-            );
-          }
-        })
-        .catch((error) => {
-          console.error("Error fetching data:", error);
-        });
-
-      // Filter markers based on coin_id
-      function setupFilter() {
-        const filterSelect = document.getElementById("coinFilter");
-        filterSelect.addEventListener("change", () => {
-          const selectedCoinId = filterSelect.value;
-
-          const selectedCoinIds = selectedCoinId
-            .split("|")
-            .map((id) => id.toLowerCase());
-
-          // Remove all markers
-          allMarkers.forEach(({ marker }) => map.removeLayer(marker));
-
-          // Add filtered markers or all if "all" is selected
-          allMarkers.forEach(({ coin_id, marker }) => {
-            if (
-              selectedCoinId === "all" ||
-              selectedCoinIds.some((id) => coin_id.toLowerCase().includes(id))
-            ) {
-              marker.addTo(map);
+              return { popupMessage, markerColor, dollarColor };
             }
+
+            const { popupMessage, markerColor, dollarColor } = generatePopupMessage(coin_id, coin_number, fullName, reward, video, brand_name);
+
+            const customIcon = createCustomIcon(markerColor, dollarColor);
+            const marker = L.marker([location.lat, location.lng], { icon: customIcon }).bindPopup(`<b>${popupMessage}</b>`);
+
+            marker.addTo(map);
+            allMarkers.push({ coin_id, marker });
           });
+
+          setupFilter();
+        } else {
+          console.error("No winners data available or data is not in the expected format");
+        }
+      })
+      .catch((error) => console.error("Error fetching data:", error));
+
+    function setupFilter() {
+      const checkboxes = document.querySelectorAll(".coinCheckbox");
+      const selectAllCheckbox = document.getElementById("selectAll");
+
+      function applyFilter() {
+        const selectedCoinIds = Array.from(checkboxes)
+          .filter(cb => cb.checked)
+          .map(cb => cb.value.toLowerCase());
+
+        allMarkers.forEach(({ coin_id, marker }) => {
+          if (selectedCoinIds.some(id => coin_id.toLowerCase().includes(id))) {
+            marker.addTo(map);
+          } else {
+            map.removeLayer(marker);
+          }
         });
+
+        selectAllCheckbox.checked = Array.from(checkboxes).every(cb => cb.checked);
       }
-    </script>
-  </body>
+
+      checkboxes.forEach(cb => cb.addEventListener("change", applyFilter));
+
+      selectAllCheckbox.addEventListener("change", () => {
+        const checked = selectAllCheckbox.checked;
+        checkboxes.forEach(cb => cb.checked = checked);
+        applyFilter();
+      });
+
+      applyFilter();
+    }
+  </script>
+</body>
 </html>
