@@ -23172,6 +23172,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "srf_giiker_9bb24aa9",
             "brand_name": "GiiKER"
+        },
+        {
+            "_id": "6a528075d8b91ae4b18b1ae6",
+            "coin_id": "SRF_64",
+            "status": "found",
+            "found_at": "2026-07-12T10:55:04.323Z",
+            "videos": [
+                "https://youtube.com/shorts/0I-ewzaKU7M?feature=share"
+            ],
+            "coin_number": 64,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Kaiji",
+                "last_name": "Koh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.318113763402664,
+                    "lng": 103.89758145851567
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.318113763402664,
+                "lng": 103.89758145851567
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
