@@ -22969,6 +22969,180 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a50039406a11a43bab7ee0b",
+            "coin_id": "SRF_58",
+            "status": "found",
+            "found_at": "2026-07-12T02:31:56.110Z",
+            "videos": [
+                "https://youtube.com/shorts/csV4-QonsqA?feature=share"
+            ],
+            "coin_number": 58,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Weishi",
+                "last_name": "Avena Du"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3934421953720602,
+                    "lng": 103.8761753079583
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3934421953720602,
+                "lng": 103.8761753079583
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a4e93ac7d9d6fc89d1f71e7",
+            "coin_id": "SRF_50",
+            "status": "found",
+            "found_at": "2026-07-12T02:34:39.850Z",
+            "videos": [
+                "https://youtube.com/shorts/Rh7QH2jkelU?feature=share"
+            ],
+            "coin_number": 50,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Charlotte",
+                "last_name": "Chua"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.398409286629402,
+                    "lng": 103.91655777169603
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.398409286629402,
+                "lng": 103.91655777169603
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5128e6292043829c26bc84",
+            "coin_id": "SRF_59",
+            "status": "found",
+            "found_at": "2026-07-11T15:32:22.393Z",
+            "videos": [
+                "https://youtube.com/shorts/6dfITTSj6b8?feature=share"
+            ],
+            "coin_number": 59,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "YK",
+                "last_name": "Chua"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3595895232172523,
+                    "lng": 103.94872946441251
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3595895232172523,
+                "lng": 103.94872946441251
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5128ee21d68ca51e3214bb",
+            "coin_id": "SRF_62",
+            "status": "found",
+            "found_at": "2026-07-11T15:30:20.389Z",
+            "videos": [
+                "https://youtube.com/shorts/BW_qDQQ3KPc?feature=share"
+            ],
+            "coin_number": 62,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Wei",
+                "last_name": "Ying Tay"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4008399106138114,
+                    "lng": 103.82167841135492
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4008399106138114,
+                "lng": 103.82167841135492
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5128eafde4c784037a16a2",
+            "coin_id": "SRF_60",
+            "status": "found",
+            "found_at": "2026-07-12T02:36:49.762Z",
+            "videos": [
+                "https://youtube.com/shorts/LkW6WRDA3so?feature=share"
+            ],
+            "coin_number": 60,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Sue",
+                "last_name": "Zheng Yong"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.431071635599281,
+                    "lng": 103.82997204136063
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.431071635599281,
+                "lng": 103.82997204136063
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5128f1c9472868a661a5d4",
+            "coin_id": "SRF_63",
+            "status": "found",
+            "found_at": "2026-07-11T15:34:11.176Z",
+            "videos": [
+                "https://youtube.com/shorts/CleC31YK7QQ?feature=share"
+            ],
+            "coin_number": 63,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Haley",
+                "last_name": "Wang"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.295117255618635,
+                    "lng": 103.8037359055835
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.295117255618635,
+                "lng": 103.8037359055835
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
