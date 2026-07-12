@@ -23143,6 +23143,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a50045050dd90d062923a5d",
+            "coin_id": "SRF_Giiker",
+            "status": "found",
+            "found_at": "2026-07-12T07:04:05.215Z",
+            "videos": [
+                "https://youtube.com/shorts/0UkS1T462nY?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Jasmine",
+                "last_name": "Leck"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3524044153918027,
+                    "lng": 103.85274548150323
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3524044153918027,
+                "lng": 103.85274548150323
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_giiker_9bb24aa9",
+            "brand_name": "GiiKER"
         }
     ],
     "error_message": "",
