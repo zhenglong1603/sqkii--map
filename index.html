@@ -171,7 +171,15 @@
                 popupMessage = `Evergreen Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
                 markerColor = "#1dd428";
               } else if (coin_id.toLowerCase().includes("srf")) {
-                popupMessage = `SRF Coin Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                if (coin_id.includes("LB")) {
+                  popupMessage = `SRF LB Coin Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                } else if (coin_id.includes("313")) {
+                  popupMessage = `SRF 313 Coin Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                } else if (coin_id.includes("Giiker")) {
+                  popupMessage = `SRF Giiker Coin Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                } else {
+                  popupMessage = `SRF Coin Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
+                }
                 markerColor = "#f4ddd5";
               } else if (coin_id.toLowerCase().includes("capitaland")) {
                 popupMessage = `Science Park Number: ${coin_number}<br>Winner: ${fullName}<br>Reward: ${reward}`;
