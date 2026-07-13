@@ -23346,6 +23346,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "srf_313_shopping_mall_f862900f",
             "brand_name": "313@somerset"
+        },
+        {
+            "_id": "6a52808450273937c212886e",
+            "coin_id": "SRF_68",
+            "status": "found",
+            "found_at": "2026-07-13T12:58:34.943Z",
+            "videos": [
+                "https://youtube.com/shorts/dfl-SLa4hoU?feature=share"
+            ],
+            "coin_number": 68,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Hasnol",
+                "last_name": "Rahmat"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3836453591109574,
+                    "lng": 103.7396413364695
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3836453591109574,
+                "lng": 103.7396413364695
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
