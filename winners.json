@@ -23201,6 +23201,151 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a528081f5216d65edf68209",
+            "coin_id": "SRF_67",
+            "status": "found",
+            "found_at": "2026-07-13T07:54:51.505Z",
+            "videos": [
+                "https://youtube.com/shorts/yFDtoYir9cE?feature=share"
+            ],
+            "coin_number": 67,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Kaizer",
+                "last_name": "Koh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3247427173569122,
+                    "lng": 103.92463679569448
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3247427173569122,
+                "lng": 103.92463679569448
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a52807150273937c2128788",
+            "coin_id": "SRF_LB",
+            "status": "found",
+            "found_at": "2026-07-13T07:33:37.111Z",
+            "videos": [
+                "https://youtube.com/shorts/YFeckM5JFMw?feature=share"
+            ],
+            "coin_number": 4,
+            "reward": "S$500 + $360 Chaos Rising Bundles!",
+            "winner_info": {
+                "first_name": "Teo",
+                "last_name": "How Tat"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.277086239820747,
+                    "lng": 103.84290311090263
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.277086239820747,
+                "lng": 103.84290311090263
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "longbridge",
+            "brand_name": "Longbridge"
+        },
+        {
+            "_id": "6a53d577dabb4f63982ee075",
+            "coin_id": "SRF_Yue_Hwa",
+            "status": "found",
+            "found_at": "2026-07-13T07:56:57.173Z",
+            "videos": [
+                "https://youtube.com/shorts/EfLV0SFrBFc?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash + Bird Nest!",
+            "winner_info": {
+                "first_name": "Louis",
+                "last_name": "Wang"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.283932749139197,
+                    "lng": 103.83962440627727
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.283932749139197,
+                "lng": 103.83962440627727
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_yue_hwa_chinese_products_116be68e",
+            "brand_name": "YUE HWA CHINESE PRODUCTS"
+        },
+        {
+            "_id": "6a5132beaa6e8f705c464344",
+            "coin_id": "SRF_LB",
+            "status": "found",
+            "found_at": "2026-07-13T07:37:53.514Z",
+            "videos": [
+                "https://youtube.com/shorts/XhIXkSz0CK0?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$500 Cash + Rings!",
+            "winner_info": {
+                "first_name": "Annie",
+                "last_name": "Poh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3034999395379288,
+                    "lng": 103.83377059310544
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3034999395379288,
+                "lng": 103.83377059310544
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "longbridge",
+            "brand_name": "Longbridge"
+        },
+        {
+            "_id": "6a528676f5216d65edf69593",
+            "coin_id": "SRF_313",
+            "status": "found",
+            "found_at": "2026-07-13T07:40:43.113Z",
+            "videos": [
+                "https://youtube.com/shorts/7Gv4ahuV9oM?feature=share"
+            ],
+            "coin_number": 3,
+            "reward": "S$500 Cash + PSA10 Trio Birds!",
+            "winner_info": {
+                "first_name": "Robin",
+                "last_name": "Toh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.305525846384299,
+                    "lng": 103.83642772513303
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.305525846384299,
+                "lng": 103.83642772513303
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_313_shopping_mall_f862900f",
+            "brand_name": "313@somerset"
         }
     ],
     "error_message": "",
