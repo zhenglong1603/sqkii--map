@@ -23549,6 +23549,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5528526272231cc31cb75f",
+            "coin_id": "SRF_76",
+            "status": "found",
+            "found_at": "2026-07-14T13:59:16.534Z",
+            "videos": [
+                "https://youtube.com/shorts/kctJhUgrEG8"
+            ],
+            "coin_number": 76,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Wei",
+                "last_name": "Xuan Chua"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4096349616000339,
+                    "lng": 103.91208078835461
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4096349616000339,
+                "lng": 103.91208078835461
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a53d54acba9a031e771e80b",
+            "coin_id": "SRF_71",
+            "status": "found",
+            "found_at": "2026-07-14T13:54:12.647Z",
+            "videos": [
+                "https://youtube.com/shorts/mQXAzk1VTFc"
+            ],
+            "coin_number": 71,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Jenny",
+                "last_name": "Koh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3546375968406466,
+                    "lng": 103.86754827754021
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3546375968406466,
+                "lng": 103.86754827754021
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
