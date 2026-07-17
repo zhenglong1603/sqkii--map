@@ -24013,6 +24013,122 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a53d56dbc316e645fc0a2ca",
+            "coin_id": "SRF_Seoul",
+            "status": "found",
+            "found_at": "2026-07-17T09:08:22.387Z",
+            "videos": [
+                "https://youtube.com/shorts/HbCkH8mMwvs?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Joseph Fong",
+                "last_name": ""
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3520840791583026,
+                    "lng": 103.94710135926243
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3520840791583026,
+                "lng": 103.94710135926243
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_seoul_garden_a1391864",
+            "brand_name": "Seoul Garden"
+        },
+        {
+            "_id": "6a55284be969f672b58393c7",
+            "coin_id": "SRF_SuiTok",
+            "status": "found",
+            "found_at": "2026-07-17T09:06:43.702Z",
+            "videos": [
+                "https://youtube.com/shorts/9tT7bHcFykQ?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Yeow",
+                "last_name": "Chan Chua"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2991833515248032,
+                    "lng": 103.83171833120457
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2991833515248032,
+                "lng": 103.83171833120457
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_suitok_d31bb009",
+            "brand_name": "SuiTok"
+        },
+        {
+            "_id": "6a552847da4f025bc30de262",
+            "coin_id": "SRF_NestBloom",
+            "status": "found",
+            "found_at": "2026-07-17T09:04:55.792Z",
+            "videos": [
+                "https://youtube.com/shorts/lS33lXrHoEI?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Kieran",
+                "last_name": "Lowe"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2972918107553113,
+                    "lng": 103.8394831440703
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2972918107553113,
+                "lng": 103.8394831440703
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_nestbloom_dd764a85",
+            "brand_name": "NestBloom"
+        },
+        {
+            "_id": "6a57c623460fa7e42f99c815",
+            "coin_id": "SRF_95",
+            "status": "found",
+            "found_at": "2026-07-17T10:58:53.743Z",
+            "videos": [
+                "https://youtube.com/shorts/FY7GMpQ3fG8"
+            ],
+            "coin_number": 95,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Yukai",
+                "last_name": " Lin"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3502573211524123,
+                    "lng": 103.87550878263175
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3502573211524123,
+                "lng": 103.87550878263175
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
