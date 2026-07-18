@@ -24303,8 +24303,65 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a57c634702f7882e2dd9b26",
+            "coin_id": "SRF_94",
+            "status": "found",
+            "found_at": "2026-07-18T04:57:28.326Z",
+            "videos": [
+                "https://youtube.com/shorts/QYsIiGxHFRk?feature=share"
+            ],
+            "coin_number": 94,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Ma",
+                "last_name": "Catherine Tunguia"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3871180142954955,
+                    "lng": 103.8576565779963
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3871180142954955,
+                "lng": 103.8576565779963
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a57c62eecfb5f83ed477576",
+            "coin_id": "SRF_92",
+            "status": "found",
+            "found_at": "2026-07-18T04:59:24.349Z",
+            "videos": [
+                "https://youtube.com/shorts/tKCMJWemMHs?feature=share"
+            ],
+            "coin_number": 92,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Aqilah",
+                "last_name": "Salleh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3785862094783283,
+                    "lng": 103.7652632249742
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3785862094783283,
+                "lng": 103.7652632249742
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
-
     ],
     "error_message": "",
     "error_code": ""
