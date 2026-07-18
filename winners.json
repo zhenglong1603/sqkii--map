@@ -24361,6 +24361,64 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a567d565a4c54264dc66143",
+            "coin_id": "SRF_84",
+            "status": "found",
+            "found_at": "2026-07-18T12:43:43.447Z",
+            "videos": [
+                "https://youtube.com/shorts/EPRfJ0GPiuE?feature=share"
+            ],
+            "coin_number": 84,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Hock",
+                "last_name": "Siah Tay"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4132505813954026,
+                    "lng": 103.82583789322393
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4132505813954026,
+                "lng": 103.82583789322393
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5a67b89f1c510ea87e3de3",
+            "coin_id": "SRF_100",
+            "status": "found",
+            "found_at": "2026-07-18T14:29:25.783Z",
+            "videos": [
+                "https://youtube.com/shorts/8Rvcq-ZKWIM?feature=share"
+            ],
+            "coin_number": 100,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Zi",
+                "last_name": "Xuan Sophia Tan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3576045783522375,
+                    "lng": 103.88480797339491
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3576045783522375,
+                "lng": 103.88480797339491
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
