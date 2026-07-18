@@ -24216,7 +24216,95 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a58475b705e2f488878e2b6",
+            "coin_id": "SRF_93",
+            "status": "found",
+            "found_at": "2026-07-18T03:11:12.657Z",
+            "videos": [
+                "https://youtube.com/shorts/Ur5S0ffH4-I?feature=share"
+            ],
+            "coin_number": 93,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Tan",
+                "last_name": "Yuvin"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.344963211381966,
+                    "lng": 103.95648347385179
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.344963211381966,
+                "lng": 103.95648347385179
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a567cd034374e48b3967983",
+            "coin_id": "SRF_Waterway",
+            "status": "found",
+            "found_at": "2026-07-18T03:15:17.222Z",
+            "videos": [
+                "https://youtube.com/shorts/dCfDED5WsYc?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Weishi",
+                "last_name": "Avena Du"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4066185364005008,
+                    "lng": 103.90159880885813
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4066185364005008,
+                "lng": 103.90159880885813
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_waterway_point_7c4dbbc5",
+            "brand_name": "Waterway Point"
+        },
+        {
+            "_id": "6a592199b6bad639f61e6a33",
+            "coin_id": "SRF_88",
+            "status": "found",
+            "found_at": "2026-07-18T03:17:37.636Z",
+            "videos": [
+                "https://youtube.com/shorts/_SzdcLO0RS8?feature=share"
+            ],
+            "coin_number": 88,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Malvis",
+                "last_name": "Teo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3639051096292576,
+                    "lng": 103.8309425542659
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3639051096292576,
+                "lng": 103.8309425542659
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
+
     ],
     "error_message": "",
     "error_code": ""
