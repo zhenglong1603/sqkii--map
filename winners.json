@@ -24941,6 +24941,93 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+         {
+            "_id": "6a567d435a4c54264dc6602a",
+            "coin_id": "SRF_EU",
+            "status": "found",
+            "found_at": "2026-07-20T13:06:07.748Z",
+            "videos": [
+                "https://youtube.com/shorts/F0gQti0kjRY?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Alvin",
+                "last_name": "Chai"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2925735177780808,
+                    "lng": 103.85422187817562
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2925735177780808,
+                "lng": 103.85422187817562
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_eu_holidays_d4a8d4b1",
+            "brand_name": "EU Holidays"
+        },
+        {
+            "_id": "6a59215fb6bad639f61e6861",
+            "coin_id": "SRF_myFirst",
+            "status": "found",
+            "found_at": "2026-07-20T13:03:52.691Z",
+            "videos": [
+                "https://youtube.com/shorts/S7I_SbyLv-8?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Herman",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.2975683158928604,
+                    "lng": 103.83698085611513
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.2975683158928604,
+                "lng": 103.83698085611513
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_myfirst_57b2dd69",
+            "brand_name": "myFirst"
+        },
+        {
+            "_id": "6a5bc78e9d29630cf1adc1f7",
+            "coin_id": "SRF_112",
+            "status": "found",
+            "found_at": "2026-07-20T13:00:10.402Z",
+            "videos": [
+                "https://youtube.com/shorts/HyfBaChEuAw?feature=share"
+            ],
+            "coin_number": 112,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Wesley",
+                "last_name": "Chan"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.341608564015047,
+                    "lng": 103.95006224501549
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.341608564015047,
+                "lng": 103.95006224501549
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
