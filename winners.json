@@ -25521,6 +25521,35 @@
             "canUsePowerUp": false,
             "brand_unique_id": "sqkii",
             "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5fb1c366132c0ce8dce2f0",
+            "coin_id": "SRF_NPC",
+            "status": "found",
+            "found_at": "2026-07-22T13:23:28.758Z",
+            "videos": [
+                "https://youtube.com/shorts/zX0UonyGaOI?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Qun",
+                "last_name": "Xiang Koh"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.4290653227260748,
+                    "lng": 103.83613318334483
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.4290653227260748,
+                "lng": 103.83613318334483
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_northpoint_city_289cab20",
+            "brand_name": "Northpoint City"
         }
     ],
     "error_message": "",
