@@ -25550,6 +25550,209 @@
             "canUsePowerUp": false,
             "brand_unique_id": "srf_northpoint_city_289cab20",
             "brand_name": "Northpoint City"
+        },
+        {
+            "_id": "6a5e646023aaea7487c54a11",
+            "coin_id": "SRF_119",
+            "status": "found",
+            "found_at": "2026-07-22T14:42:58.906Z",
+            "videos": [
+                "https://youtube.com/shorts/RsiyJ49pAWo?feature=share"
+            ],
+            "coin_number": 119,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Rukiah",
+                "last_name": "Anif"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3833314329593804,
+                    "lng": 103.74661984894408
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3833314329593804,
+                "lng": 103.74661984894408
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5fb1d566132c0ce8dce3ff",
+            "coin_id": "SRF_126",
+            "status": "found",
+            "found_at": "2026-07-23T06:00:19.580Z",
+            "videos": [
+                "https://youtube.com/shorts/Yj3KxUWqRYc?feature=share"
+            ],
+            "coin_number": 126,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Muhammad",
+                "last_name": "Azlan Ahmad"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3560462753374907,
+                    "lng": 103.73576231190896
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3560462753374907,
+                "lng": 103.73576231190896
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5d150456ac78e841d4b295",
+            "coin_id": "SRF_Memories",
+            "status": "found",
+            "found_at": "2026-07-23T11:00:10.702Z",
+            "videos": [
+                "https://youtube.com/shorts/bOk1ZxWam3A?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Herman",
+                "last_name": "Ng"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3014367519132861,
+                    "lng": 103.83544135489956
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3014367519132861,
+                "lng": 103.83544135489956
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_singapore_memories_40bf42ca",
+            "brand_name": "Singapore Memories"
+        },
+        {
+            "_id": "6a5e644f23aaea7487c54916",
+            "coin_id": "SRF_Eastpoint",
+            "status": "found",
+            "found_at": "2026-07-23T11:03:21.959Z",
+            "videos": [
+                "https://youtube.com/shorts/lX5JGRPAKKY?feature=share"
+            ],
+            "coin_number": 1,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Evan",
+                "last_name": "Yeo"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3424883238890999,
+                    "lng": 103.95311482222269
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3424883238890999,
+                "lng": 103.95311482222269
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_ntuc_fairprice_eastpoint_mall_c929bf96",
+            "brand_name": "NTUC FairPrice Eastpoint Mall"
+        },
+        {
+            "_id": "6a5fb1bb5a4f204ba0b3f036",
+            "coin_id": "SRF_Waterway_Point",
+            "status": "found",
+            "found_at": "2026-07-23T10:56:33.216Z",
+            "videos": [
+                "https://youtube.com/shorts/0GGnhZ-8qCg?feature=share"
+            ],
+            "coin_number": 2,
+            "reward": "S$500 Cash",
+            "winner_info": {
+                "first_name": "Benjamin",
+                "last_name": "Neo Hong Wee"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.406895082813378,
+                    "lng": 103.90209964749147
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.406895082813378,
+                "lng": 103.90209964749147
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "srf_waterway_point_7c4dbbc5",
+            "brand_name": "Waterway Point"
+        },
+        {
+            "_id": "6a5fb1d28f311cbcdf5ec15c",
+            "coin_id": "SRF_125",
+            "status": "found",
+            "found_at": "2026-07-23T10:58:13.395Z",
+            "videos": [
+                "https://youtube.com/shorts/RZCIwRuT_SA?feature=share"
+            ],
+            "coin_number": 125,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Delia",
+                "last_name": "Lai"
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3693139121403846,
+                    "lng": 103.8942370752552
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3693139121403846,
+                "lng": 103.8942370752552
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
+        },
+        {
+            "_id": "6a5fb231d7ab475a7f81f6a6",
+            "coin_id": "SRF_122",
+            "status": "found",
+            "found_at": "2026-07-23T11:05:36.598Z",
+            "videos": [
+                "https://youtube.com/shorts/Q3RVDyvJeko?feature=share"
+            ],
+            "coin_number": 122,
+            "reward": "S$500 Cash!",
+            "winner_info": {
+                "first_name": "Hafizan",
+                "last_name": ""
+            },
+            "lastCircle": {
+                "center": {
+                    "lat": 1.3794478498720082,
+                    "lng": 103.7579191432419
+                },
+                "radius": 10
+            },
+            "location": {
+                "lat": 1.3794478498720082,
+                "lng": 103.7579191432419
+            },
+            "canUsePowerUp": false,
+            "brand_unique_id": "sqkii",
+            "brand_name": "Silver"
         }
     ],
     "error_message": "",
